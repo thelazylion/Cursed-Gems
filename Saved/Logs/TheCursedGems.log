@@ -190,3 +190,27 @@ LogInit: Object subsystem initialized
 [2017.10.01-04.09.24:754][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
 [2017.10.01-04.09.34:090][  0]LogAssetRegistry: FAssetRegistry took 0.0975 seconds to start up
 [2017.10.01-04.09.37:092][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.01-04.09.39:574][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.01-04.09.39:699][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.01-04.09.39:710][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.01-04.09.39:726][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.01-04.09.39:726][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.01-04.09.39:726][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.01-04.09.39:934][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.01-04.09.43:153][  0]LogNetVersion: TheCursedGems , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 156434613)
+[2017.10.01-04.09.44:499][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.050042 seconds
+[2017.10.01-04.09.44:513][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.01-04.09.44:513][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.01-04.09.44:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.01-04.09.44:676][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.01-04.09.58:367][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.10.01-04.09.58:507][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.01-04.09.58:587][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.01-04.10.00:580][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.01-04.10.01:817][  0]SourceControl: Source control is disabled
+[2017.10.01-04.10.01:818][  0]SourceControl: Source control is disabled
+[2017.10.01-04.10.01:956][  0]SourceControl: Source control is disabled
+[2017.10.01-04.10.02:052][  0]SourceControl: Source control is disabled
+[2017.10.01-04.10.03:707][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.01-04.10.04:147][  0]LogOcInput: OculusInput pre-init called
+[2017.10.01-04.10.05:779][  0]LogEngine: Initializing Engine...
