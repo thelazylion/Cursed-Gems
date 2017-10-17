@@ -1,0 +1,71 @@
+Begin Object Class=/Script/Engine.Material Name="M_Fire_OddsnEnds_FloorPillar"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_46"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_42"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_16"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_46"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_OddsnEnds/Textures/T_Env_Fire_OddsnEnds_FloorPillar_D.T_Env_Fire_OddsnEnds_FloorPillar_D'
+      MaterialExpressionEditorX=-1000
+      MaterialExpressionEditorY=-120
+      MaterialExpressionGuid=BFAA71C94F741A040F9009AE1AA34E2B
+      Material=Material'M_Fire_OddsnEnds_FloorPillar'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_42"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_OddsnEnds/Textures/T_Env_Fire_OddsnEnds_FloorPillar_N.T_Env_Fire_OddsnEnds_FloorPillar_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=420
+      MaterialExpressionGuid=A74F5C7940F234C491E8EEAEC4E9616E
+      Material=Material'M_Fire_OddsnEnds_FloorPillar'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_8"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Fire_OddsnEnds_FloorPillar:MaterialExpressionTextureSample_46',OutputIndex=1,Mask=1,MaskR=1)
+      ConstA=0.650000
+      ConstB=0.980000
+      MaterialExpressionEditorX=-420
+      MaterialExpressionEditorY=60
+      MaterialExpressionGuid=27616BA746E11F34430335B9407A6D68
+      Material=Material'M_Fire_OddsnEnds_FloorPillar'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Fire_OddsnEnds_FloorPillar:MaterialExpressionTextureSample_46',OutputIndex=4,Mask=1,MaskA=1)
+      ConstA=-0.100000
+      ConstB=3.000000
+      MaterialExpressionEditorX=-700
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=24F5057248B5E23E6480D2B774B6CFA4
+      Material=Material'M_Fire_OddsnEnds_FloorPillar'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionLinearInterpolate'M_Fire_OddsnEnds_FloorPillar:MaterialExpressionLinearInterpolate_2')
+      MaterialExpressionEditorX=-500
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=C174C29C45B87438C3F561BC842C621F
+      Material=Material'M_Fire_OddsnEnds_FloorPillar'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_46',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionClamp'MaterialExpressionClamp_2')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_8')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_42',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_46'
+   Expressions(1)=MaterialExpressionClamp'MaterialExpressionClamp_2'
+   Expressions(2)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_8'
+   Expressions(3)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_42'
+   Expressions(4)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_2'
+   StateId=1DFFA96646E55279F1BEBBA138BF4F02
+   ReferencedTextureGuids(0)=6B75E88F4329ED59C98944A319015D40
+   ReferencedTextureGuids(1)=08F107BB4A650BF7742A2F932EDAD99F
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_16'
+   LightingGuid=BA30D1B349842A46F1B5DD98DD672D3C
+End Object

@@ -1,0 +1,163 @@
+Begin Object Class=/Script/Engine.Material Name="M_Plains_Pillars"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_7"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_13"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_24"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Textures/T_Plains_Ruins_Pillars_N.T_Plains_Ruins_Pillars_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=300
+      MaterialExpressionGuid=E1D8253842FE2B76645E6E8D36A3CC3E
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_23"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Textures/T_Plains_Ruins_Pillars_D.T_Plains_Ruins_Pillars_D'
+      MaterialExpressionEditorX=-1058
+      MaterialExpressionEditorY=-124
+      MaterialExpressionGuid=1F83EF494EBDAD89DC1C8B9B9415DDD8
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Textures/T_Plains_Ruins_Pillars_M.T_Plains_Ruins_Pillars_M'
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=5962FC2F41548EF8C85473B223650FC8
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_15"
+      ParameterName="Saturation"
+      ExpressionGUID=B8AE3C4E46BED588068ABC87DBA324C6
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=DB456D8044CEBAB54CCB9993275EA6FA
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_14"
+      DefaultValue=1.000000
+      ParameterName="Brightness"
+      ExpressionGUID=EE8972CA407224556DA3AEA7C58F1A31
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=09702F6F4C40B9DF2FF5D3AB1E762A79
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Plains_Pillars:MaterialExpressionLinearInterpolate_8')
+      B=(Expression=MaterialExpressionScalarParameter'M_Plains_Pillars:MaterialExpressionScalarParameter_14')
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=AA8848F141A2C80BC36BBCBF8E9BFFCA
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_23',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=2.000000
+      MaterialExpressionEditorX=-850
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=595A8BB844097BBFC32EC39AADE324B8
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_9"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_1',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=85F973694403FBD16821BEB07D428EE6
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_8"
+      A=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_23',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'M_Plains_Pillars:MaterialExpressionMultiply_2')
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_1',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=FE85BF164DB26F3B1507C6885C49C8E9
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_7"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Plains_Pillars:MaterialExpressionLinearInterpolate_6')
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_1',OutputIndex=1,Mask=1,MaskR=1)
+      ConstB=0.500000
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=3FF0B21B424EDCC4A7226A9702AB69C2
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_6"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_23',OutputIndex=1,Mask=1,MaskR=1)
+      ConstA=0.850000
+      ConstB=0.980000
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=C159BA474CC3FB9428D1C589EDD551E5
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_10"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Plains_Pillars:MaterialExpressionLinearInterpolate_7')
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Plains_Pillars:MaterialExpressionTextureSample_1',OutputIndex=2,Mask=1,MaskG=1)
+      ConstB=0.660000
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=9E61382441427F39B50BEC853F62C486
+      Material=Material'M_Plains_Pillars'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_7"
+      Input=(Expression=MaterialExpressionMultiply'M_Plains_Pillars:MaterialExpressionMultiply_7')
+      Fraction=(Expression=MaterialExpressionScalarParameter'M_Plains_Pillars:MaterialExpressionScalarParameter_15')
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=AB0FDD664AEA779C20C374840F243A7A
+      Material=Material'M_Plains_Pillars'
+   End Object
+   BaseColor=(Expression=MaterialExpressionDesaturation'MaterialExpressionDesaturation_7')
+   Metallic=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_9')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_10')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_24',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_8'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_9'
+   Expressions(2)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_10'
+   Expressions(3)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_24'
+   Expressions(4)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_23'
+   Expressions(5)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_6'
+   Expressions(6)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_1'
+   Expressions(7)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_7'
+   Expressions(8)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(9)=MaterialExpressionMultiply'MaterialExpressionMultiply_7'
+   Expressions(10)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_14'
+   Expressions(11)=MaterialExpressionDesaturation'MaterialExpressionDesaturation_7'
+   Expressions(12)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_15'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D09A3E614BCB661D7B50E3809DA48225
+   ReferencedTextureGuids(0)=3BAF6F264901B97E58A59D9460D4F5B6
+   ReferencedTextureGuids(1)=4D343E294D87098500EB29B07ABB76C4
+   ReferencedTextureGuids(2)=B74014824D898D56E24F6EAE6B2B1E5F
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_13'
+   LightingGuid=427BCF614854DA36170144B8AFB51092
+End Object

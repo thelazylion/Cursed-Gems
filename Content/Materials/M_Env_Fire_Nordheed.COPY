@@ -1,0 +1,50 @@
+Begin Object Class=/Script/Engine.Material Name="M_Env_Fire_Nordheed"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_35"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_14"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_6"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_35"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Textures/T_Env_Ice_NordHeed_N.T_Env_Ice_NordHeed_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=6EF7C63F477F31E2A78968B3641ABA38
+      Material=Material'M_Env_Fire_Nordheed'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Fire_Fortress/Textures/Env_Fire_NordHeed_D.Env_Fire_NordHeed_D'
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=520AF2584E1897F03507B58CD658EA21
+      Material=Material'M_Env_Fire_Nordheed'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_14"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Env_Fire_Nordheed:MaterialExpressionTextureSample_0',OutputIndex=1,Mask=1,MaskR=1)
+      ConstA=0.900000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=EC4B1F8344FB1A368123EBAF134AE1F8
+      Material=Material'M_Env_Fire_Nordheed'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(OutputIndex=1)
+   Specular=(OutputIndex=2)
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_14')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_35',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_14'
+   Expressions(2)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_35'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D76E1F8D43A69C7C7934579AA50A536C
+   ReferencedTextureGuids(0)=C954B84646DF3014EDA9DD9561818737
+   ReferencedTextureGuids(1)=42F278B949932A58DB4EB7806BE70552
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_6'
+   LightingGuid=B76C4E2E42A5483D58623999A980E88F
+End Object

@@ -1,0 +1,163 @@
+Begin Object Class=/Script/Engine.Material Name="M_Env_Fire_GrimStatue_glow"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_25"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_5"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=576
+      MaterialExpressionGuid=D6CB2AF04345A0EAE7BDE99BEA3C6C8C
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=1.000000,G=0.147416,B=0.032529,A=0.000000)
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=01C3EF8C4A99A9CD9ED52BB8CAF5D6E7
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_1"
+      Input=(Expression=MaterialExpressionTextureSample'M_Env_Fire_GrimStatue_glow:MaterialExpressionTextureSample_24',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Fraction=(Expression=MaterialExpressionConstant'M_Env_Fire_GrimStatue_glow:MaterialExpressionConstant_3')
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=AE8E7C884529E2840510E6B4876F45C3
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_10"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_Env_Fire_GrimStatue_glow:MaterialExpressionTextureSample_23',OutputIndex=1,Mask=1,MaskR=1)
+      ConstA=0.850000
+      ConstB=0.980000
+      MaterialExpressionEditorX=-260
+      MaterialExpressionEditorY=40
+      MaterialExpressionGuid=485A15B5497113660F258B9D7DBC5EA4
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionMultiply'M_Env_Fire_GrimStatue_glow:MaterialExpressionMultiply_2')
+      B=(Expression=MaterialExpressionConstant3Vector'M_Env_Fire_GrimStatue_glow:MaterialExpressionConstant3Vector_0')
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=5460D011492437E4B0B677B83272FF49
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionScalarParameter'M_Env_Fire_GrimStatue_glow:MaterialExpressionScalarParameter_0')
+      B=(Expression=MaterialExpressionMultiply'M_Env_Fire_GrimStatue_glow:MaterialExpressionMultiply_0')
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=0778A01D42FF79C142C39FA2CD9FCD50
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionTextureSample'M_Env_Fire_GrimStatue_glow:MaterialExpressionTextureSample_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionDesaturation'M_Env_Fire_GrimStatue_glow:MaterialExpressionDesaturation_1')
+      ConstA=5.000000
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=BC84C5C0409DA1CB0159D2AF8D99E956
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_0"
+      SpeedX=0.100000
+      SpeedY=0.100000
+      MaterialExpressionEditorX=-1312
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=C0C8BB624E34B2C4579D639EBE5ECF7C
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=5.000000
+      ParameterName="Emiss_Brightness"
+      ExpressionGUID=C56BB31146513E91206121B11A8048D3
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=14417ACE4B62FAECBC2B6DAD0C29BA6D
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Env_Fire_GrimStatue_glow:MaterialExpressionPanner_0')
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Terrain2/Textures/T_Fire_Lava.T_Fire_Lava'
+      MaterialExpressionEditorX=-1120
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=166FEA464070808CCDDC9EBA1D7A1AD9
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_23"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Engines/Textures/T_Fire_GrimStatue2_D.T_Fire_GrimStatue2_D'
+      MaterialExpressionEditorX=-500
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=158B3E314C4F9F7177D4A5A634729C29
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_24"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Engines/Textures/T_Fire_GrimStatue2_E.T_Fire_GrimStatue2_E'
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=2D0E5CA0400156388C995BA016A17523
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_25"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Engines/Textures/T_Fire_GrimStatue2_N.T_Fire_GrimStatue2_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-260
+      MaterialExpressionEditorY=380
+      MaterialExpressionGuid=9274E141463F047C1FB3C8A8506AD02E
+      Material=Material'M_Env_Fire_GrimStatue_glow'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_5"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_23',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_10')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_25',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_1')
+   bUsedWithStaticLighting=True
+   EditorX=18
+   EditorY=2
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_23'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_10'
+   Expressions(2)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_25'
+   Expressions(3)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(4)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(5)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_24'
+   Expressions(6)=MaterialExpressionDesaturation'MaterialExpressionDesaturation_1'
+   Expressions(7)=MaterialExpressionConstant'MaterialExpressionConstant_3'
+   Expressions(8)=MaterialExpressionPanner'MaterialExpressionPanner_0'
+   Expressions(9)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0'
+   Expressions(10)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(11)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_0'
+   Expressions(12)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=EF58000D42C0355D5375D9A41D800C51
+   ReferencedTextureGuids(0)=60B12385409355B726ADA3A6F0BBDAD4
+   ReferencedTextureGuids(1)=8BDDEB284DE02B7DAD6A4DA050DC7005
+   ReferencedTextureGuids(2)=4A6EBD584EB9582C775FB5B22F0DE6A5
+   ReferencedTextureGuids(3)=A94B8AB946AAE6116BF95BACC23C5999
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_5'
+   LightingGuid=2DD442584DBC96E27087EE94681A76F2
+End Object

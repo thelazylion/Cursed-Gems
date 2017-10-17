@@ -1,0 +1,17 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="M_Env_Fire_Robot_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_5"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_5"
+   End Object
+   Parent=Material'/Game/InfinityBladeFireLands/Environments/Fire/MasterMaterials/SimpleMaster.SimpleMaster'
+   ScalarParameterValues(0)=(ParameterName="AlbedoBrightness",ParameterValue=1.500000,ExpressionGUID=83060FFB4E1248DD6280D3AFDCC55D80)
+   ScalarParameterValues(1)=(ParameterName="MetalValue",ParameterValue=1.000000,ExpressionGUID=36181BA641A85A036DF026B8FECE6E5F)
+   ScalarParameterValues(2)=(ParameterName="Roughness_Min",ParameterValue=0.600000,ExpressionGUID=F88DB60B4E38E751DD4D5B8435CB4A83)
+   ScalarParameterValues(3)=(ParameterName="RefractionDepthBias")
+   TextureParameterValues(0)=(ParameterName="Albedo",ParameterValue=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Robot/Textures/T_Fire_POI_Robot_D.T_Fire_POI_Robot_D',ExpressionGUID=54E21A074A81ADDDA37DF789BDB360A3)
+   TextureParameterValues(1)=(ParameterName="Normals",ParameterValue=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Robot/Textures/T_Fire_POI_Robot_N.T_Fire_POI_Robot_N',ExpressionGUID=661CE7574E0910C7738014B95838C3C4)
+   ReferencedTextureGuids(0)=D00621014A7C678B68F7C396A3937A00
+   ReferencedTextureGuids(1)=4C22B93A410AFDC02FF1E1A1CF2D2A37
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_5'
+   LightingGuid=06EE48394BA462F12CC6A5A9AF9E4156
+End Object

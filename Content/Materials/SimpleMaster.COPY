@@ -1,0 +1,166 @@
+Begin Object Class=/Script/Engine.Material Name="SimpleMaster"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="Normals"
+      ExpressionGUID=661CE7574E0910C7738014B95838C3C4
+      Group="Normals"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Terrain2/Textures/T_Cooled_Lava_N.T_Cooled_Lava_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=DB77ED9B4605AB57654BE4A8DC580EB6
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="Albedo"
+      ExpressionGUID=54E21A074A81ADDDA37DF789BDB360A3
+      Group="Albedo"
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Terrain2/Textures/T_Cooled_Lava_D.T_Cooled_Lava_D'
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=-576
+      MaterialExpressionGuid=25297C3346CD125386AC4F817B770942
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=1.000000
+      ParameterName="AlbedoBrightness"
+      ExpressionGUID=83060FFB4E1248DD6280D3AFDCC55D80
+      Group="Albedo"
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=6817CB774EC86890124AF9B794524BF1
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      ParameterName="MetalValue"
+      ExpressionGUID=36181BA641A85A036DF026B8FECE6E5F
+      Group="Metal"
+      MaterialExpressionEditorX=-622
+      MaterialExpressionEditorY=258
+      MaterialExpressionGuid=99966A8D46F61A4A57AFC395407D38FD
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="Roughness_Max"
+      ExpressionGUID=2C8C3B214AEAF0ACB7B64AA298BDDBFF
+      Group="Roughness"
+      MaterialExpressionEditorX=-1006
+      MaterialExpressionEditorY=-110
+      MaterialExpressionGuid=21AD81C04FFC7C44C916B6952CCE23C2
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.800000
+      ParameterName="Roughness_Min"
+      ExpressionGUID=F88DB60B4E38E751DD4D5B8435CB4A83
+      Group="Roughness"
+      MaterialExpressionEditorX=-1006
+      MaterialExpressionEditorY=-206
+      MaterialExpressionGuid=D7DAFF074C97A8B0982EF5B461BBF349
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionLinearInterpolate'SimpleMaster:MaterialExpressionLinearInterpolate_1')
+      MaterialExpressionEditorX=-622
+      MaterialExpressionEditorY=82
+      MaterialExpressionGuid=FF53E63B44C9E5CB6E85469CF05ACCCB
+      Material=Material'SimpleMaster'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'SimpleMaster:MaterialExpressionTextureSampleParameter2D_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'SimpleMaster:MaterialExpressionScalarParameter_3')
+      MaterialExpressionEditorX=-540
+      MaterialExpressionEditorY=-505
+      MaterialExpressionGuid=7260BE2F4CB466DB0322F586108353AB
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionScalarParameter'SimpleMaster:MaterialExpressionScalarParameter_0')
+      B=(Expression=MaterialExpressionScalarParameter'SimpleMaster:MaterialExpressionScalarParameter_1')
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'SimpleMaster:MaterialExpressionTextureSampleParameter2D_0',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-766
+      MaterialExpressionEditorY=-254
+      MaterialExpressionGuid=04D966854CC5E95D105722824AFFFB2B
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionOneMinus'SimpleMaster:MaterialExpressionOneMinus_0')
+      B=(Expression=MaterialExpressionScalarParameter'SimpleMaster:MaterialExpressionScalarParameter_2')
+      MaterialExpressionEditorX=-446
+      MaterialExpressionEditorY=82
+      MaterialExpressionGuid=0DBC00AA4CDF233E15F145AD43D6C834
+      Material=Material'SimpleMaster'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=450
+      SizeY=344
+      Text="Metal"
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=A214677F4D32BA1795B4F5AF04BC32CF
+      Material=Material'SimpleMaster'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=442
+      SizeY=314
+      Text="Roughness"
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=3832BDDF4A93E95BFCDF3988E1AFE9A1
+      Material=Material'SimpleMaster'
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_0')
+   Metallic=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1')
+   Normal=(Expression=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_0'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(2)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1'
+   Expressions(3)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_1'
+   Expressions(4)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   Expressions(5)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1'
+   Expressions(6)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_2'
+   Expressions(7)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_0'
+   Expressions(8)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(9)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_3'
+   EditorComments(0)=MaterialExpressionComment'MaterialExpressionComment_1'
+   EditorComments(1)=MaterialExpressionComment'MaterialExpressionComment_2'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=58FFAB884D34855056E78BBCF85EA4AF
+   ReferencedTextureGuids(0)=A7BE818B4F98201512900AB03558AD57
+   ReferencedTextureGuids(1)=27F7E3CD4B7C7B31445501A3EEC0A9BB
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=3E00DFB043C6BCCE0D19D7A3F98E36D8
+End Object

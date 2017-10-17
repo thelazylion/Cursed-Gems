@@ -1,0 +1,102 @@
+Begin Object Class=/Script/Engine.Material Name="M_Env_Fire_Magma2"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_47"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_23"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+      ParameterName="LavaTint"
+      ExpressionGUID=95F95CE14F096F2EE21A3DB5B104AF88
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=9984EFA144257D2386E1C5BB14535012
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_47"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Env_Fire_Magma2:MaterialExpressionPanner_5')
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Magma/Textures/T_Fire_Lava.T_Fire_Lava'
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=D1AEA8134971F1D278F9F29779A1A256
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      UTiling=20.000000
+      VTiling=20.000000
+      MaterialExpressionEditorX=-1008
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=BCF5622847686787A2C42E9A8476F56E
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_5"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'M_Env_Fire_Magma2:MaterialExpressionTextureCoordinate_0')
+      SpeedX=0.300000
+      SpeedY=-0.300000
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=9DBA527D4F69533ADC170494FE757FDC
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTextureSample'M_Env_Fire_Magma2:MaterialExpressionTextureSample_47',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=4.000000
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=B1DD0F0940489F6CBFB2F8BE27DF5E62
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionMultiply'M_Env_Fire_Magma2:MaterialExpressionMultiply_1')
+      B=(Expression=MaterialExpressionVectorParameter'M_Env_Fire_Magma2:MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-298
+      MaterialExpressionEditorY=201
+      MaterialExpressionGuid=B13697AD47862614328B679FB3AAA57B
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=1.000000
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=42DA95304F91BB977EAE4BA69B03848F
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      MaterialExpressionEditorX=-225
+      MaterialExpressionEditorY=68
+      MaterialExpressionGuid=686A9E29441E963B9399109989E85002
+      Material=Material'M_Env_Fire_Magma2'
+   End Object
+   Roughness=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_1')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_0')
+   ShadingModel=MSM_Unlit
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionConstant'MaterialExpressionConstant_1'
+   Expressions(1)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(2)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_47'
+   Expressions(3)=MaterialExpressionPanner'MaterialExpressionPanner_5'
+   Expressions(4)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_0'
+   Expressions(5)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(6)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0'
+   Expressions(7)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=AF0A3AFF4189EA65AA338A9085E419EE
+   ReferencedTextureGuids(0)=660B6C5F41F3751D550351BC478D21D5
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_23'
+   LightingGuid=E79F78E143E0789A8074DE85EE169D6C
+End Object

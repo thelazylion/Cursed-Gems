@@ -1,0 +1,48 @@
+Begin Object Class=/Script/Engine.Material Name="M_PLains_Castle_WroughtIron"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_11"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_20"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Textures/T_Plains_Castle_Wroughtlron_N.T_Plains_Castle_Wroughtlron_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=EAC57CE649C94E386D33AAB5274AD33D
+      Material=Material'M_PLains_Castle_WroughtIron'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_19"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Textures/T_Plains_Castle_Wroughtlron_D.T_Plains_Castle_Wroughtlron_D'
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=254159C2405CF233909253A3E19E9ED3
+      Material=Material'M_PLains_Castle_WroughtIron'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_PLains_Castle_WroughtIron:MaterialExpressionTextureSample_19',OutputIndex=3,Mask=1,MaskB=1)
+      ConstA=0.800000
+      ConstB=0.980000
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=119422D94717EFB050E62594C8FD1DF6
+      Material=Material'M_PLains_Castle_WroughtIron'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_19',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_2')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_20',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_19'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_2'
+   Expressions(2)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_20'
+   StateId=B643A7C84F6EEAE664C5D5B34DE80A58
+   ReferencedTextureGuids(0)=B7E781E6426C221F572D6F842B8D10E8
+   ReferencedTextureGuids(1)=ED5476CD4EA63BB619B5BA9F4BAE6142
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_11'
+   LightingGuid=1F0E2CD04549D279224CAC9538CFC666
+End Object

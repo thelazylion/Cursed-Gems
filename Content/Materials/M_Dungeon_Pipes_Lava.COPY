@@ -1,0 +1,68 @@
+Begin Object Class=/Script/Engine.Material Name="M_Dungeon_Pipes_Lava"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_28"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Dungeon_Pipes_Lava:MaterialExpressionPanner_2')
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_FlameDungeon/Textures/T_Dungeon_Pipe_Lava_E.T_Dungeon_Pipe_Lava_E'
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=514020D74BE76707D7B0C6A9E3B71A9D
+      Material=Material'M_Dungeon_Pipes_Lava'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_9"
+      MaterialExpressionEditorX=-944
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=B39224AD4E90DB53CDB2D89F4DF5F9D1
+      Material=Material'M_Dungeon_Pipes_Lava'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_2"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'M_Dungeon_Pipes_Lava:MaterialExpressionTextureCoordinate_9')
+      SpeedY=-0.200000
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=2C29DCEA4CFDC13A11D6DCA33D3F2735
+      Material=Material'M_Dungeon_Pipes_Lava'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionTextureSample'M_Dungeon_Pipes_Lava:MaterialExpressionTextureSample_28',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=5.000000
+      MaterialExpressionEditorX=-259
+      MaterialExpressionEditorY=200
+      MaterialExpressionGuid=D7A2031A43AF44C972BA77AADC62DFB5
+      Material=Material'M_Dungeon_Pipes_Lava'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=1.000000
+      MaterialExpressionEditorX=-257
+      MaterialExpressionEditorY=43
+      MaterialExpressionGuid=3BE6394840DA6E90B65EC082387F5C80
+      Material=Material'M_Dungeon_Pipes_Lava'
+   End Object
+   Roughness=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_6')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_3')
+   Opacity=(OutputIndex=1,Mask=1,MaskR=1)
+   ShadingModel=MSM_Unlit
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionConstant'MaterialExpressionConstant_6'
+   Expressions(1)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_28'
+   Expressions(2)=MaterialExpressionPanner'MaterialExpressionPanner_2'
+   Expressions(3)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_9'
+   Expressions(4)=MaterialExpressionMultiply'MaterialExpressionMultiply_3'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=181A7EAF48E297EA0C639E9190B268FA
+   ReferencedTextureGuids(0)=2B3E719F480DB2D5DBDD109A26883B0C
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_4'
+   LightingGuid=9D42C5DA4631BC22B6529C90A3970FC4
+End Object

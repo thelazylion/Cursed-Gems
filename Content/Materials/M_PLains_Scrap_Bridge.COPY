@@ -1,0 +1,48 @@
+Begin Object Class=/Script/Engine.Material Name="M_PLains_Scrap_Bridge"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Textures/T_Plains_FloorsBeams_D.T_Plains_FloorsBeams_D'
+      MaterialExpressionEditorX=-680
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=F82434A04A794B89969336AB3713F859
+      Material=Material'M_PLains_Scrap_Bridge'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Textures/T_Plains_FloorsBeams_N.T_Plains_FloorsBeams_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=280
+      MaterialExpressionGuid=217EE95046DCE631DF533AA4162248EE
+      Material=Material'M_PLains_Scrap_Bridge'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      Alpha=(Expression=MaterialExpressionTextureSample'M_PLains_Scrap_Bridge:MaterialExpressionTextureSample_3',OutputIndex=1,Mask=1,MaskR=1)
+      ConstA=0.850000
+      ConstB=0.980000
+      MaterialExpressionEditorX=-418
+      MaterialExpressionEditorY=90
+      MaterialExpressionGuid=CC0A9CA347A8DA91B2CB53B54D703DE7
+      Material=Material'M_PLains_Scrap_Bridge'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0')
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_3'
+   Expressions(1)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_2'
+   Expressions(2)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   StateId=B70E034E47C8855F956BDA99F973869D
+   ReferencedTextureGuids(0)=AD2E5BDD42E24CF878FD83833779E7DF
+   ReferencedTextureGuids(1)=BDB9E4E84C808EB839FD959BA1767988
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=84E0B1E04CB45BC7E905CB923684BE2F
+End Object
