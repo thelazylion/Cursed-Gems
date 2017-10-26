@@ -1,0 +1,817 @@
+Begin Object Class=/Script/Engine.Material Name="M_Ice_VertPaint_Mobile"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexColor Name="MaterialExpressionVertexColor_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexColor Name="MaterialExpressionVertexColor_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexColor Name="MaterialExpressionVertexColor_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexColor Name="MaterialExpressionVertexColor_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_89"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_83"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_79"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_78"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_75"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_67"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_66"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_64"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_27"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionBumpOffset Name="MaterialExpressionBumpOffset_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_3"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Name="MaterialExpressionVertexColor_7"
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=8F477C0E4A8934BAD3C8038FFB1AF879
+      Material=Material'M_Ice_VertPaint_Mobile'
+      Desc="Blue vert paint channel used for melted ice"
+   End Object
+   Begin Object Name="MaterialExpressionVertexColor_6"
+      MaterialExpressionEditorX=-2224
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=1C78D03F4DF3C066649C48991463BAF3
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionVertexColor_2"
+      MaterialExpressionEditorX=-2561
+      MaterialExpressionEditorY=-1212
+      MaterialExpressionGuid=B8B36B234B2F31652A45FF996BDF7A5A
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionVertexColor_1"
+      MaterialExpressionEditorX=-3312
+      MaterialExpressionEditorY=-896
+      MaterialExpressionGuid=38C3A8724D82B8DBEC6C7CAB62E412B8
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.513416,G=0.535000,B=0.397869,A=0.000000)
+      ParameterName="ShoreColor"
+      ExpressionGUID=F7AB62DF477691E4A52CC4872CBB4686
+      MaterialExpressionEditorX=-2448
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=2FB8E032447D1DA96F97AEA06FC933F3
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.686250,G=0.704441,B=0.750000,A=0.000000)
+      ParameterName="SnowColor"
+      ExpressionGUID=D8127C44458A21031867F0BADB036FD8
+      MaterialExpressionEditorX=-2384
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=16E087C74BB6973E45C9DBAD66F1A3AB
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.173186,G=0.243973,B=0.336283,A=0.000000)
+      ParameterName="IceColor"
+      ExpressionGUID=A9889ACD46A7CFD22420958178079366
+      MaterialExpressionEditorX=-2152
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=4531CE9D4D0B74FB51FD22A57B09F857
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_8"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_67')
+      Texture=Texture2D'/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/Textures/T_LS_Grass_01_D.T_LS_Grass_01_D'
+      MaterialExpressionEditorX=-3376
+      MaterialExpressionEditorY=-1120
+      MaterialExpressionGuid=7456EF7E4301520C9EA5E398030FC4D9
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_7"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_66')
+      Texture=Texture2D'/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/Textures/T_LS_Grass_01_D.T_LS_Grass_01_D'
+      MaterialExpressionEditorX=-3376
+      MaterialExpressionEditorY=-1296
+      MaterialExpressionGuid=DCD3749A42375150E77B8EA3534F800D
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_17"
+      Coordinates=(Expression=MaterialExpressionBumpOffset'M_Ice_VertPaint_Mobile:MaterialExpressionBumpOffset_2')
+      Texture=Texture2D'/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/Textures/T_Env_Ice_Ground_Rock_3_N.T_Env_Ice_Ground_Rock_3_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-1488
+      MaterialExpressionEditorY=2176
+      MaterialExpressionGuid=0C08B59A4BA92497434ABC94DB0461A2
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_16"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_75')
+      Texture=Texture2D'/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/Textures/SnowMound_01_N.SnowMound_01_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-3808
+      MaterialExpressionEditorY=-880
+      MaterialExpressionGuid=B1047A7F45AF8B067CB322867A950A59
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_15"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Ice_VertPaint_Mobile:MaterialExpressionPanner_14')
+      Texture=Texture2D'/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/Textures/T_Env_Ice_Ground_Rock_1_N.T_Env_Ice_Ground_Rock_1_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-1760
+      MaterialExpressionEditorY=1920
+      MaterialExpressionGuid=74A48CD1400879EBA597948D7B7EAE66
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_14"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'M_Ice_VertPaint_Mobile:MaterialExpressionTextureCoordinate_14')
+      Texture=Texture2D'/Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Terrain/Textures/T_IceSurface_ComplexNormal.T_IceSurface_ComplexNormal'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-3264
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=049753574946B698A759E39F22C2554E
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_16"
+      UTiling=80.000000
+      VTiling=80.000000
+      MaterialExpressionEditorX=-2080
+      MaterialExpressionEditorY=2176
+      MaterialExpressionGuid=715AEF974DE808D55AE6D1AE5570770B
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_15"
+      UTiling=24.000000
+      VTiling=24.000000
+      MaterialExpressionEditorX=-2080
+      MaterialExpressionEditorY=1936
+      MaterialExpressionGuid=E2B87B8244F8CED5D11A75B455BC8707
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_14"
+      UTiling=30.000000
+      VTiling=30.000000
+      MaterialExpressionEditorX=-3392
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=B9764D0842DC2A41D22B95A115F389B9
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_1"
+      MaterialExpressionEditorX=-4480
+      MaterialExpressionEditorY=-1440
+      MaterialExpressionGuid=A1DB8E5E43873BCE7FDF4785FCBF8FB4
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=-0.500000
+      ParameterName="Ice Min"
+      ExpressionGUID=5E00757643F95BD261CFBDABF727F0F1
+      MaterialExpressionEditorX=-2163
+      MaterialExpressionEditorY=-1238
+      MaterialExpressionGuid=D88A4946484F0D491F29F68320194DC2
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=64.000000
+      ParameterName="Ice Max"
+      ExpressionGUID=976C07CB4022608B706C0A8B08C4C3F1
+      MaterialExpressionEditorX=-2170
+      MaterialExpressionEditorY=-1135
+      MaterialExpressionGuid=8940BA2D4A650C92551A7E96E7A057F2
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=8.000000
+      ParameterName="Snow Normal Tile"
+      ExpressionGUID=84C9C1AB41BD3ADF30222BB0B376E4B6
+      MaterialExpressionEditorX=-4144
+      MaterialExpressionEditorY=-800
+      MaterialExpressionGuid=E02E39554731181894621A965D9AD3FB
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=8.000000
+      ParameterName="Snow Tile"
+      ExpressionGUID=C2733F1141B41B945FFF619D58872B56
+      MaterialExpressionEditorX=-4448
+      MaterialExpressionEditorY=-1296
+      MaterialExpressionGuid=0E6B87AC40CB3B97E7950F9D59B64804
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Specular"
+      ExpressionGUID=C0D6ABCE40515776C7CD5C83BC3A3714
+      MaterialExpressionEditorX=128
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=04088F9C447D8BB5938B7FAC0A82BCAB
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_15"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'M_Ice_VertPaint_Mobile:MaterialExpressionTextureCoordinate_16')
+      SpeedX=0.100000
+      SpeedY=0.250000
+      MaterialExpressionEditorX=-1920
+      MaterialExpressionEditorY=2176
+      MaterialExpressionGuid=0A859D3E4996A1D1AF94CEB2D94F0943
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_14"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'M_Ice_VertPaint_Mobile:MaterialExpressionTextureCoordinate_15')
+      SpeedX=-0.025000
+      SpeedY=-0.033000
+      MaterialExpressionEditorX=-1920
+      MaterialExpressionEditorY=1920
+      MaterialExpressionGuid=447FC7534896A4C5833CC79B5200161B
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_4"
+      Input=(Expression=MaterialExpressionClamp'M_Ice_VertPaint_Mobile:MaterialExpressionClamp_3')
+      MaterialExpressionEditorX=-1568
+      MaterialExpressionEditorY=-1136
+      MaterialExpressionGuid=C4C450954ED43113C052CB8596C9E524
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_2"
+      Input=(Expression=MaterialExpressionVertexColor'M_Ice_VertPaint_Mobile:MaterialExpressionVertexColor_2',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2336
+      MaterialExpressionEditorY=-1072
+      MaterialExpressionGuid=D43A79294F6CB0B8C5CF2AA7D8DAF2B2
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_1"
+      Input=(Expression=MaterialExpressionVertexColor'M_Ice_VertPaint_Mobile:MaterialExpressionVertexColor_1',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-3184
+      MaterialExpressionEditorY=-880
+      MaterialExpressionGuid=F37A5894443EB2FDD25A399F210E40F0
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_89"
+      A=(Expression=MaterialExpressionClamp'M_Ice_VertPaint_Mobile:MaterialExpressionClamp_2')
+      B=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_7',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-1916
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=880C249645FBFC974CFA8485041DDEE5
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_83"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Ice_VertPaint_Mobile:MaterialExpressionLinearInterpolate_3')
+      B=(Expression=MaterialExpressionConstant3Vector'M_Ice_VertPaint_Mobile:MaterialExpressionConstant3Vector_8')
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=264578EF4F710F5B4312C2B7487035F8
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_79"
+      A=(Expression=MaterialExpressionOneMinus'M_Ice_VertPaint_Mobile:MaterialExpressionOneMinus_2')
+      B=(Expression=MaterialExpressionClamp'M_Ice_VertPaint_Mobile:MaterialExpressionClamp_1')
+      MaterialExpressionEditorX=-2179
+      MaterialExpressionEditorY=-1029
+      MaterialExpressionGuid=5BEF04BC42E76F6E3F63EDAC93971F2D
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_78"
+      A=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_8',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionOneMinus'M_Ice_VertPaint_Mobile:MaterialExpressionOneMinus_1')
+      MaterialExpressionEditorX=-3088
+      MaterialExpressionEditorY=-928
+      MaterialExpressionGuid=414FC5564162608641AC308F30FA536A
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_75"
+      A=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_64')
+      B=(Expression=MaterialExpressionScalarParameter'M_Ice_VertPaint_Mobile:MaterialExpressionScalarParameter_5')
+      MaterialExpressionEditorX=-3968
+      MaterialExpressionEditorY=-880
+      MaterialExpressionGuid=5D48FFDE4D9AACD457495BB4996C7B11
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_67"
+      A=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_66')
+      B=(Expression=MaterialExpressionConstant'M_Ice_VertPaint_Mobile:MaterialExpressionConstant_5')
+      MaterialExpressionEditorX=-3587
+      MaterialExpressionEditorY=-1144
+      MaterialExpressionGuid=ECF48D514C11A68C7198449A8013EE17
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_66"
+      A=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_64')
+      B=(Expression=MaterialExpressionConstant'M_Ice_VertPaint_Mobile:MaterialExpressionConstant_2')
+      MaterialExpressionEditorX=-3744
+      MaterialExpressionEditorY=-1200
+      MaterialExpressionGuid=F2B3244B4B1F730B1F0F449CD419812D
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_64"
+      A=(Expression=MaterialExpressionTextureCoordinate'M_Ice_VertPaint_Mobile:MaterialExpressionTextureCoordinate_1')
+      B=(Expression=MaterialExpressionScalarParameter'M_Ice_VertPaint_Mobile:MaterialExpressionScalarParameter_3')
+      MaterialExpressionEditorX=-4320
+      MaterialExpressionEditorY=-1344
+      MaterialExpressionGuid=D2E58B424107A84E40690CB07F7B68F7
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_27"
+      A=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_17',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionConstant3Vector'M_Ice_VertPaint_Mobile:MaterialExpressionConstant3Vector_10')
+      MaterialExpressionEditorX=-1120
+      MaterialExpressionEditorY=2256
+      MaterialExpressionGuid=A41352EF4F7D93DFCEC2A09BA046EC8C
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_26"
+      A=(Expression=MaterialExpressionAppendVector'M_Ice_VertPaint_Mobile:MaterialExpressionAppendVector_12')
+      B=(Expression=MaterialExpressionConstant3Vector'M_Ice_VertPaint_Mobile:MaterialExpressionConstant3Vector_9')
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=1808
+      MaterialExpressionGuid=E51E62CA4494C36A6C83D3B8D409C57C
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Ice_VertPaint_Mobile:MaterialExpressionLinearInterpolate_9')
+      B=(Expression=MaterialExpressionVertexColor'M_Ice_VertPaint_Mobile:MaterialExpressionVertexColor_7',OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=6E0D3F334AD8FEFDA85609A89DC6C030
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_8',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'M_Ice_VertPaint_Mobile:MaterialExpressionVectorParameter_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-2224
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=506DB1314E969910D0312BAC9783C449
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Ice_VertPaint_Mobile:MaterialExpressionLinearInterpolate_2')
+      B=(Expression=MaterialExpressionConstant3Vector'M_Ice_VertPaint_Mobile:MaterialExpressionConstant3Vector_0')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=4B7E73DA4929736D02E5DB90A571EDA7
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_9"
+      A=(Expression=MaterialExpressionConstant'M_Ice_VertPaint_Mobile:MaterialExpressionConstant_7')
+      B=(Expression=MaterialExpressionConstant'M_Ice_VertPaint_Mobile:MaterialExpressionConstant_3')
+      Alpha=(Expression=MaterialExpressionOneMinus'M_Ice_VertPaint_Mobile:MaterialExpressionOneMinus_4')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionGuid=1835AB8141639728C068C795D2F1CB8E
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_8"
+      A=(Expression=MaterialExpressionVectorParameter'M_Ice_VertPaint_Mobile:MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'M_Ice_VertPaint_Mobile:MaterialExpressionVectorParameter_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_89')
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=6E34EB464081970227DFE69965EEB669
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Ice_VertPaint_Mobile:MaterialExpressionLinearInterpolate_0')
+      B=(Expression=MaterialExpressionLinearInterpolate'M_Ice_VertPaint_Mobile:MaterialExpressionLinearInterpolate_8')
+      Alpha=(Expression=MaterialExpressionOneMinus'M_Ice_VertPaint_Mobile:MaterialExpressionOneMinus_4')
+      MaterialExpressionEditorX=-660
+      MaterialExpressionEditorY=-460
+      MaterialExpressionGuid=0984F15644F33253F873B6994CD9F906
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_16',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_14',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionOneMinus'M_Ice_VertPaint_Mobile:MaterialExpressionOneMinus_4')
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=0C8E78114E8E972176F6B9A55ECB0011
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_13"
+      A=(Expression=MaterialExpressionAdd'M_Ice_VertPaint_Mobile:MaterialExpressionAdd_6')
+      B=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_0')
+      Alpha=(Expression=MaterialExpressionVertexColor'M_Ice_VertPaint_Mobile:MaterialExpressionVertexColor_7',OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=1241FAD14C0BBCD389D4E3887413F760
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionScalarParameter'M_Ice_VertPaint_Mobile:MaterialExpressionScalarParameter_9')
+      B=(Expression=MaterialExpressionScalarParameter'M_Ice_VertPaint_Mobile:MaterialExpressionScalarParameter_8')
+      Alpha=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_79')
+      MaterialExpressionEditorX=-1953
+      MaterialExpressionEditorY=-1163
+      MaterialExpressionGuid=B3E522C04790345BCA2282A24AE6BCC5
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionVectorParameter'M_Ice_VertPaint_Mobile:MaterialExpressionVectorParameter_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_1')
+      Alpha=(Expression=MaterialExpressionVertexColor'M_Ice_VertPaint_Mobile:MaterialExpressionVertexColor_6',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-2078
+      MaterialExpressionEditorY=79
+      MaterialExpressionGuid=3BBDD4B84B31AA88A2D7ECAA30C67D00
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      Exponent=2.000000
+      BaseReflectFraction=0.000000
+      MaterialExpressionEditorX=-2336
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=430C35234B59D18E6D06718B44CF4D46
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_9"
+      Constant=(R=0.150000,G=0.150000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=2080
+      MaterialExpressionGuid=15D222814300718BB71C78B57E935A2D
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_8"
+      Constant=(R=0.709125,G=0.839600,B=0.915000,A=0.000000)
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=D9D68F654084F8F0348EA094D33EFAC1
+      Material=Material'M_Ice_VertPaint_Mobile'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_10"
+      Constant=(R=0.075000,G=0.075000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=2336
+      MaterialExpressionGuid=3CFBA0EB4C12C4CC0E841EA74709F0B8
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.600000,G=0.600000,B=1.000000,A=0.000000)
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=CC033F744FA2214A061EC7A87C2103BC
+      Material=Material'M_Ice_VertPaint_Mobile'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      R=-5.000000
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=2304
+      MaterialExpressionGuid=11F7DDD746A824003A3AE19275D33BD4
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_7"
+      R=0.800000
+      MaterialExpressionEditorX=-728
+      MaterialExpressionEditorY=-12
+      MaterialExpressionGuid=4015ED6049641FFA1A00698229C536A6
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=2080
+      MaterialExpressionGuid=3E3A154A41D9A2FE3B9E3A946D0C85AA
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=1.618000
+      MaterialExpressionEditorX=-3696
+      MaterialExpressionEditorY=-1072
+      MaterialExpressionGuid=2C939B5E410ADB88D97EB59E351D102C
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=0.200000
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=84
+      MaterialExpressionGuid=C14B221147050CF366D1C3BD6A7AE9B0
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=1.618000
+      MaterialExpressionEditorX=-3840
+      MaterialExpressionEditorY=-1136
+      MaterialExpressionGuid=218B3DDA4CFF0CEA332947A7B2081E35
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionComment_9"
+      SizeX=592
+      SizeY=384
+      Text="Roughness"
+      MaterialExpressionEditorX=-942
+      MaterialExpressionEditorY=-82
+      MaterialExpressionGuid=9073A58F4A538B45553F77875CF1721B
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionComment_8"
+      SizeX=1072
+      SizeY=1120
+      Text="Color parameters"
+      MaterialExpressionEditorX=-2694
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=855A9F2242814E76E48E3CB263E51484
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionComment_7"
+      SizeX=1200
+      SizeY=608
+      Text="Normals"
+      MaterialExpressionEditorX=-4157
+      MaterialExpressionEditorY=4
+      MaterialExpressionGuid=F7B7477642DC6CB790A4E6940D959335
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionComment_5"
+      SizeX=1184
+      SizeY=512
+      Text="Vertex paint blends ice and snow"
+      MaterialExpressionEditorX=-2847
+      MaterialExpressionEditorY=-1288
+      MaterialExpressionGuid=A37EF0154A59AE4401460783853C7B00
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionComment_10"
+      SizeX=768
+      SizeY=416
+      Text="Normal multiply"
+      MaterialExpressionEditorX=-978
+      MaterialExpressionEditorY=362
+      MaterialExpressionGuid=CCE037A24D1F63289875248FE265A329
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=1808
+      SizeY=1200
+      Text="Snow Mask"
+      MaterialExpressionEditorX=-4923
+      MaterialExpressionEditorY=-1641
+      MaterialExpressionGuid=335C4B20482BFCDADCC7F39542DE862A
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_3"
+      Input=(Expression=MaterialExpressionLinearInterpolate'M_Ice_VertPaint_Mobile:MaterialExpressionLinearInterpolate_1')
+      MaterialExpressionEditorX=-1808
+      MaterialExpressionEditorY=-1168
+      MaterialExpressionGuid=F3980FBA49B2344AFF8659BF75B42FC2
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionFresnel'M_Ice_VertPaint_Mobile:MaterialExpressionFresnel_0')
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=5B2E620D455AD919D52EA58AAC795934
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_1"
+      Input=(Expression=MaterialExpressionAdd'M_Ice_VertPaint_Mobile:MaterialExpressionAdd_3')
+      MaterialExpressionEditorX=-2448
+      MaterialExpressionEditorY=-952
+      MaterialExpressionGuid=BBEEA2EB4D52A83D91B6FFA541C28E6F
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionBumpOffset_2"
+      Coordinate=(Expression=MaterialExpressionPanner'M_Ice_VertPaint_Mobile:MaterialExpressionPanner_15')
+      Height=(Expression=MaterialExpressionConstant'M_Ice_VertPaint_Mobile:MaterialExpressionConstant_8')
+      MaterialExpressionEditorX=-1728
+      MaterialExpressionEditorY=2192
+      MaterialExpressionGuid=CA32277C443E8B58BCC4C59E770E2EA3
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_12"
+      A=(Expression=MaterialExpressionAppendVector'M_Ice_VertPaint_Mobile:MaterialExpressionAppendVector_11')
+      B=(Expression=MaterialExpressionConstant'M_Ice_VertPaint_Mobile:MaterialExpressionConstant_6')
+      MaterialExpressionEditorX=-1264
+      MaterialExpressionEditorY=1984
+      MaterialExpressionGuid=EFF6E3F7482B56C1B15D7F9189E3CC88
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_11"
+      A=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_15',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_15',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-1392
+      MaterialExpressionEditorY=1904
+      MaterialExpressionGuid=276A07FE4C3A28407F6A5DAC4302D7A0
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_6"
+      A=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_26')
+      B=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_27')
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=1824
+      MaterialExpressionGuid=E6D7681D4BE132E97B615BB77A5E3A7B
+      Material=Material'M_Ice_VertPaint_Mobile'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_3"
+      A=(Expression=MaterialExpressionTextureSample'M_Ice_VertPaint_Mobile:MaterialExpressionTextureSample_7',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionMultiply'M_Ice_VertPaint_Mobile:MaterialExpressionMultiply_78')
+      MaterialExpressionEditorX=-2944
+      MaterialExpressionEditorY=-1120
+      MaterialExpressionGuid=800F96D441F28DE17D48F7A2BA708C62
+      Material=Material'M_Ice_VertPaint_Mobile'
+      bCollapsed=False
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_83')
+   Specular=(Expression=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0')
+   Roughness=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_2')
+   Normal=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_13')
+   EmissiveColor=(OutputIndex=-1)
+   bUsedWithStaticLighting=True
+   EditorX=288
+   Expressions(0)=MaterialExpressionMultiply'MaterialExpressionMultiply_83'
+   Expressions(1)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   Expressions(2)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(3)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_13'
+   Expressions(4)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_9'
+   Expressions(5)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(6)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_2'
+   Expressions(7)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_4'
+   Expressions(8)=MaterialExpressionClamp'MaterialExpressionClamp_3'
+   Expressions(9)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1'
+   Expressions(10)=MaterialExpressionMultiply'MaterialExpressionMultiply_79'
+   Expressions(11)=MaterialExpressionClamp'MaterialExpressionClamp_1'
+   Expressions(12)=MaterialExpressionAdd'MaterialExpressionAdd_3'
+   Expressions(13)=MaterialExpressionMultiply'MaterialExpressionMultiply_78'
+   Expressions(14)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_1'
+   Expressions(15)=MaterialExpressionVertexColor'MaterialExpressionVertexColor_1'
+   Expressions(16)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_8'
+   Expressions(17)=MaterialExpressionMultiply'MaterialExpressionMultiply_67'
+   Expressions(18)=MaterialExpressionConstant'MaterialExpressionConstant_5'
+   Expressions(19)=MaterialExpressionMultiply'MaterialExpressionMultiply_66'
+   Expressions(20)=MaterialExpressionConstant'MaterialExpressionConstant_2'
+   Expressions(21)=MaterialExpressionMultiply'MaterialExpressionMultiply_64'
+   Expressions(22)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_3'
+   Expressions(23)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_1'
+   Expressions(24)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_7'
+   Expressions(25)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_2'
+   Expressions(26)=MaterialExpressionVertexColor'MaterialExpressionVertexColor_2'
+   Expressions(27)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_8'
+   Expressions(28)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_9'
+   Expressions(29)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_14'
+   Expressions(30)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_14'
+   Expressions(31)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_5'
+   Expressions(32)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_16'
+   Expressions(33)=MaterialExpressionMultiply'MaterialExpressionMultiply_75'
+   Expressions(34)=MaterialExpressionConstant'MaterialExpressionConstant_3'
+   Expressions(35)=MaterialExpressionConstant'MaterialExpressionConstant_7'
+   Expressions(36)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_8'
+   Expressions(37)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_3'
+   Expressions(38)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_8'
+   Expressions(39)=MaterialExpressionMultiply'MaterialExpressionMultiply_89'
+   Expressions(40)=MaterialExpressionClamp'MaterialExpressionClamp_2'
+   Expressions(41)=MaterialExpressionFresnel'MaterialExpressionFresnel_0'
+   Expressions(42)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_1'
+   Expressions(43)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0'
+   Expressions(44)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_0'
+   Expressions(45)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(46)=MaterialExpressionVertexColor'MaterialExpressionVertexColor_6'
+   Expressions(47)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(48)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_2'
+   Expressions(49)=MaterialExpressionVertexColor'MaterialExpressionVertexColor_7'
+   Expressions(50)=MaterialExpressionAdd'MaterialExpressionAdd_6'
+   Expressions(51)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_15'
+   Expressions(52)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_17'
+   Expressions(53)=MaterialExpressionPanner'MaterialExpressionPanner_14'
+   Expressions(54)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_15'
+   Expressions(55)=MaterialExpressionAppendVector'MaterialExpressionAppendVector_11'
+   Expressions(56)=MaterialExpressionAppendVector'MaterialExpressionAppendVector_12'
+   Expressions(57)=MaterialExpressionConstant'MaterialExpressionConstant_6'
+   Expressions(58)=MaterialExpressionMultiply'MaterialExpressionMultiply_26'
+   Expressions(59)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_9'
+   Expressions(60)=MaterialExpressionMultiply'MaterialExpressionMultiply_27'
+   Expressions(61)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_10'
+   Expressions(62)=MaterialExpressionBumpOffset'MaterialExpressionBumpOffset_2'
+   Expressions(63)=MaterialExpressionPanner'MaterialExpressionPanner_15'
+   Expressions(64)=MaterialExpressionConstant'MaterialExpressionConstant_8'
+   Expressions(65)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_16'
+   EditorComments(0)=MaterialExpressionComment'MaterialExpressionComment_1'
+   EditorComments(1)=MaterialExpressionComment'MaterialExpressionComment_5'
+   EditorComments(2)=MaterialExpressionComment'MaterialExpressionComment_7'
+   EditorComments(3)=MaterialExpressionComment'MaterialExpressionComment_8'
+   EditorComments(4)=MaterialExpressionComment'MaterialExpressionComment_9'
+   EditorComments(5)=MaterialExpressionComment'MaterialExpressionComment_10'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=17907D3C4EF6B74FC80584911AED432A
+   ReferencedTextureGuids(0)=EED0D4954C6B0A984C53D7A42B5C64D6
+   ReferencedTextureGuids(1)=70660904420C248D1AFE1F8E98F6F5E4
+   ReferencedTextureGuids(2)=76B669B44B38157773E996B502077439
+   ReferencedTextureGuids(3)=4D4A532A4B61F870F0BF8088E48F2523
+   ReferencedTextureGuids(4)=E6742BA14EAB0C3C1DDB048D86C229EE
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_4'
+   LightingGuid=BE26DE3645D0545AEA3C00BC9732FF32
+End Object
