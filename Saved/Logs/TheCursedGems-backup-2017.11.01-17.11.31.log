@@ -1,0 +1,1281 @@
+﻿Log file open, 11/01/17 09:30:50
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: TheCursedGems
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1080611543) SRandInit(1080611543).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.225115
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: E:/JOE-software/UE4/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.01-16.30.50:980][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.01-16.30.50:980][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.01-16.30.51:005][  0]LogInit: Computer: JOE-PC
+[2017.11.01-16.30.51:005][  0]LogInit: User: JOE
+[2017.11.01-16.30.51:005][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.11.01-16.30.51:005][  0]LogInit: High frequency timer resolution =3.221721 MHz
+[2017.11.01-16.30.51:005][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.01-16.30.51:005][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.01-16.30.51:005][  0]LogMemory: Process Physical Memory: 280.94 MB used, 280.94 MB peak
+[2017.11.01-16.30.51:005][  0]LogMemory: Process Virtual Memory: 280.97 MB used, 280.97 MB peak
+[2017.11.01-16.30.51:005][  0]LogMemory: Physical Memory: 5507.22 MB used,  10767.28 MB free, 16274.50 MB total
+[2017.11.01-16.30.51:005][  0]LogMemory: Virtual Memory: 680.53 MB used,  10767.28 MB free, 134217728.00 MB total
+[2017.11.01-16.30.51:115][  0]LogInit: Using OS detected language (en-US).
+[2017.11.01-16.30.51:115][  0]LogInit: Using OS detected locale (zh-CN).
+[2017.11.01-16.30.51:117][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.01-16.30.51:747][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.01-16.30.51:778][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.11.01-16.30.51:779][  0]LogD3D11RHI:       2017/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.01-16.30.51:780][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.01-16.30.51:780][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.01-16.30.51:780][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.01-16.30.51:788][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.01-16.30.51:788][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.01-16.30.51:788][  0]LogWindows: EnumDisplayDevices:
+[2017.11.01-16.30.51:788][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.11.01-16.30.51:789][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2017.11.01-16.30.51:789][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.11.01-16.30.51:789][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.11.01-16.30.51:789][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.01-16.30.51:789][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.11.01-16.30.51:789][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.11.01-16.30.51:789][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.11.01-16.30.51:789][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.01-16.30.51:816][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.01-16.30.51:896][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.01-16.30.51:945][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Intermediate/Shaders/WorkingDirectory/23084/).
+[2017.11.01-16.30.51:945][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JOE/AppData/Local/Temp/UnrealShaderWorkingDir/C427AAB44A1D844E78DAFBBF5CAD47CC/'.
+[2017.11.01-16.30.51:945][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.01-16.30.52:833][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.01-16.30.52:870][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.01-16.30.52:906][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.01-16.30.52:946][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.01-16.30.52:987][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.01-16.30.53:026][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.01-16.30.53:063][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.01-16.30.53:098][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.01-16.30.53:127][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.01-16.30.53:165][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.01-16.30.53:199][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.01-16.30.53:233][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.01-16.30.53:275][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.01-16.30.53:309][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.01-16.30.53:346][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.01-16.30.53:416][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.01-16.30.53:416][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.01-16.30.53:441][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.01-16.30.53:513][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.01-16.30.53:535][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.01-16.30.53:570][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.01-16.30.53:604][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.01-16.30.53:640][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.01-16.30.53:674][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.01-16.30.53:674][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.01-16.30.53:984][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.01-16.30.54:089][  0]LogDerivedDataCache: Loaded boot cache 0.10s 94MB C:/Users/JOE/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.01-16.30.54:089][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/JOE/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.01-16.30.54:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.01-16.30.54:089][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.01-16.30.54:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.01-16.30.54:089][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.01-16.30.54:105][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.01-16.30.54:117][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JOE/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.01-16.30.54:128][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.01-16.30.54:128][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.01-16.30.54:128][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.01-16.30.54:128][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.01-16.30.54:374][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.11.01-16.30.54:475][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.01-16.30.54:599][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.01-16.30.54:812][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.01-16.30.54:838][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.01-16.30.54:838][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.01-16.30.54:838][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.01-16.30.54:838][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.01-16.30.54:838][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.01-16.30.55:145][  0]LogNetVersion: TheCursedGems , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 156434613)
+[2017.11.01-16.30.55:308][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.041062 seconds
+[2017.11.01-16.30.55:314][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.01-16.30.55:314][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.01-16.30.55:314][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.01-16.30.55:351][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.01-16.30.57:302][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.11.01-16.30.57:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Marketplace/Substance/Content/Icons/icon_Substance_White_40x.png' error.
+[2017.11.01-16.30.57:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Marketplace/Substance/Content/Icons/icon_Substance_White_40x.png
+[2017.11.01-16.30.57:302][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Marketplace/Substance/Content/Icons/icon_SubstanceFactory_White_40x.png' error.
+[2017.11.01-16.30.57:302][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Marketplace/Substance/Content/Icons/icon_SubstanceFactory_White_40x.png
+[2017.11.01-16.30.57:321][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.01-16.30.57:350][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.01-16.30.57:782][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.01-16.30.58:062][  0]SourceControl: Source control is disabled
+[2017.11.01-16.30.58:062][  0]SourceControl: Source control is disabled
+[2017.11.01-16.30.58:091][  0]SourceControl: Source control is disabled
+[2017.11.01-16.30.58:124][  0]SourceControl: Source control is disabled
+[2017.11.01-16.30.58:496][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.01-16.30.58:647][  0]LogOcInput: OculusInput pre-init called
+[2017.11.01-16.30.58:962][  0]LogEngine: Initializing Engine...
+[2017.11.01-16.30.58:965][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.01-16.30.59:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.01-16.30.59:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.01-16.30.59:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.01-16.30.59:262][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.30.59:274][  0]LogInit: FAudioDevice initialized.
+[2017.11.01-16.30.59:381][  0]LogDerivedDataCache: Saved boot cache 0.11s 94MB C:/Users/JOE/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.01-16.30.59:396][  0]LogInit: Texture streaming: Enabled
+[2017.11.01-16.30.59:470][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.01-16.30.59:617][  0]LogInit: Transaction tracking system initialized
+[2017.11.01-16.30.59:822][  0]BlueprintLog: New page: Editor Load
+[2017.11.01-16.31.00:391][  0]LocalizationService: Localization service is disabled
+[2017.11.01-16.31.00:826][  0]LogConsoleResponse: Display: 
+[2017.11.01-16.31.00:996][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.01-16.31.00:996][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.01-16.31.00:996][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.01-16.31.01:682][  0]LogFileCache: Scanning file cache for directory 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/' took 0.06s
+[2017.11.01-16.31.01:682][  0]SourceControl: Source control is disabled
+[2017.11.01-16.31.01:682][  0]Cmd: MAP LOAD FILE="../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.01-16.31.01:682][  0]LightingResults: New page: Lighting Build
+[2017.11.01-16.31.01:709][  0]MapCheck: New page: Map Check
+[2017.11.01-16.31.01:709][  0]LightingResults: New page: Lighting Build
+[2017.11.01-16.31.04:692][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.01-16.31.04:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.01-16.31.05:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.01-16.31.05:065][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.741ms to complete.
+[2017.11.01-16.31.05:065][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.384
+[2017.11.01-16.31.05:131][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2017.11.01-16.31.05:208][  0]LogCollectionManager: Loaded 0 collections in 0.000891 seconds
+[2017.11.01-16.31.05:273][  0]LogFileCache: Scanning file cache for directory 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/Collections/' took 0.01s
+[2017.11.01-16.31.05:273][  0]LogFileCache: Scanning file cache for directory 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/Developers/JOE/Collections/' took 0.01s
+[2017.11.01-16.31.05:273][  0]LogFileCache: Scanning file cache for directory 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/Collections/' took 0.01s
+[2017.11.01-16.31.05:273][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.01-16.31.05:286][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2400 classes and 506 folders.
+[2017.11.01-16.31.05:327][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.01-16.31.05:360][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.01-16.31.05:395][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.01-16.31.05:481][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.01-16.31.05:482][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.01-16.31.05:487][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.01-16.31.05:586][  0]LogRenderer: Reallocating scene render targets to support 1200x588 Format 10 NumSamples 1 (Frame:1).
+[2017.11.01-16.31.05:783][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.01-16.31.05:784][  0]LogLoad: (Engine Initialization) Total time: 16.30 seconds
+[2017.11.01-16.31.05:784][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.01-16.31.05:784][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.01-16.31.05:784][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.01-16.31.05:815][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.01-16.31.05:914][  2]LogStaticMesh: Allocated 287x64x64 distance field atlas = 2.2Mb, with 47 objects containing 1.5Mb backing data
+[2017.11.01-16.31.05:915][  2]LogAssetRegistry: Asset discovery search completed in 11.5627 seconds
+[2017.11.01-16.31.05:918][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.01-16.31.05:918][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2017.11.01-16.31.09:883][470]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.01-16.32.40:376][ 51]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.01-16.32.41:860][ 51]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.32.41:884][ 51]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.01-16.32.41:915][ 51]Cmd: MAP LOAD FILE="../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/ThirdPersonBP/Maps/NewWorld2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.01-16.32.41:915][ 51]LightingResults: New page: Lighting Build
+[2017.11.01-16.32.41:916][ 51]LoadErrors: New page: Loading map: NewWorld2.umap
+[2017.11.01-16.32.41:925][ 51]MapCheck: New page: Map Check
+[2017.11.01-16.32.41:925][ 51]LightingResults: New page: Lighting Build
+[2017.11.01-16.32.42:037][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.01-16.32.42:088][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.01-16.32.42:146][ 51]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.921ms to complete.
+[2017.11.01-16.32.42:146][ 51]LogFileHelpers: Loading map 'NewWorld2' took 0.232
+[2017.11.01-16.32.43:932][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD02)
+[2017.11.01-16.32.44:346][274]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.01-16.32.47:363][433]LogRenderer: Reallocating scene render targets to support 1200x924 Format 10 NumSamples 1 (Frame:1).
+[2017.11.01-16.32.47:363][433]LogStaticMesh: Allocated 512x299x64 distance field atlas = 18.7Mb, with 85 objects containing 11.4Mb backing data
+[2017.11.01-16.32.53:685][838]LogEditorTransaction: Undo Staticmesh editor: Set Collision For section
+[2017.11.01-16.32.53:823][838]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.01-16.32.54:282][858]LogEditorTransaction: Undo Staticmesh editor: Section material slot changed
+[2017.11.01-16.33.46:423][ 89]LogSavePackage: Save=22.30ms
+[2017.11.01-16.33.46:423][ 89]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Ruin_BuildingLOD02D632D9B24BF3BF6898E93985B92A382F.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD02.uasset'
+[2017.11.01-16.33.46:425][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD02.uasset
+[2017.11.01-16.33.47:419][160]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.01-16.33.47:553][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.01-16.33.47:554][160]PIE: New page: PIE session: NewWorld2 (2017年11月1日 上午2:33:47)
+[2017.11.01-16.33.47:554][160]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2
+[2017.11.01-16.33.47:562][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008626s)
+[2017.11.01-16.33.47:563][160]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.33.47:563][160]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.11.01-16.33.47:563][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewWorld2.NewWorld2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 (0.009673s)
+[2017.11.01-16.33.47:583][160]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.33.47:592][160]LogInit: FAudioDevice initialized.
+[2017.11.01-16.33.47:644][160]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.01-16.33.47:651][160]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 up for play (max tick rate 0) at 2017.11.01-09.33.47
+[2017.11.01-16.33.47:652][160]LogWorld: Bringing up level for play took: 0.007330
+[2017.11.01-16.33.47:679][160]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.01-16.33.47:682][160]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2 -0.01
+[2017.11.01-16.34.08:822][802]LogStaticMesh: Building static mesh SM_Plains_Ruin_BuildingLOD01...
+[2017.11.01-16.34.08:836][802]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD01.SM_Plains_Ruin_BuildingLOD01
+[2017.11.01-16.34.12:068][822]LogMeshUtilities: Finished distance field build in 3.1s - 64x64x64 distance field, 532 triangles, Range [-0.2, 1.0], SM_Plains_Ruin_BuildingLOD01
+[2017.11.01-16.34.12:068][822]LogStaticMesh: Warning: Main thread blocked for 2.448s for async distance field build of SM_Plains_Ruin_BuildingLOD01 to complete!  This can happen if the mesh is rebuilt excessively.
+[2017.11.01-16.35.29:226][938]LogSavePackage: Save=18.39ms
+[2017.11.01-16.35.29:226][938]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Ruin_BuildingLOD01264CAE854BF237E118C75591A75B8CA3.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD01.uasset'
+[2017.11.01-16.35.29:228][938]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD01.uasset
+[2017.11.01-16.36.37:652][250]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.01-16.36.37:673][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.01-16.36.37:673][250]PIE: New page: PIE session: NewWorld2 (2017年11月1日 上午2:36:37)
+[2017.11.01-16.36.37:674][250]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2
+[2017.11.01-16.36.37:683][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009084s)
+[2017.11.01-16.36.37:683][250]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.36.37:684][250]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2017.11.01-16.36.37:684][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewWorld2.NewWorld2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 (0.010155s)
+[2017.11.01-16.36.37:704][250]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.36.37:712][250]LogInit: FAudioDevice initialized.
+[2017.11.01-16.36.37:741][250]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.01-16.36.37:748][250]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 up for play (max tick rate 0) at 2017.11.01-09.36.37
+[2017.11.01-16.36.37:749][250]LogWorld: Bringing up level for play took: 0.007774
+[2017.11.01-16.36.37:752][250]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2 0.06
+[2017.11.01-16.36.44:069][823]LogSlate: Took 0.020812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.01-16.37.35:665][104]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.01-16.37.35:687][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.01-16.37.35:687][104]PIE: New page: PIE session: NewWorld2 (2017年11月1日 上午2:37:35)
+[2017.11.01-16.37.35:687][104]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2
+[2017.11.01-16.37.35:696][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009197s)
+[2017.11.01-16.37.35:697][104]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.37.35:697][104]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2017.11.01-16.37.35:697][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewWorld2.NewWorld2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 (0.010131s)
+[2017.11.01-16.37.35:716][104]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.37.35:724][104]LogInit: FAudioDevice initialized.
+[2017.11.01-16.37.35:758][104]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.01-16.37.35:765][104]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 up for play (max tick rate 0) at 2017.11.01-09.37.35
+[2017.11.01-16.37.35:766][104]LogWorld: Bringing up level for play took: 0.007578
+[2017.11.01-16.37.35:769][104]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2 0.077
+[2017.11.01-16.37.37:983][273]LogSavePackage: Save=12.91ms
+[2017.11.01-16.37.37:983][273]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Ruin_BuildingLOD0219AFEFDF416064E44592218D0138A6BD.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD02.uasset'
+[2017.11.01-16.37.37:985][273]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD02.uasset
+[2017.11.01-16.37.39:010][345]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.01-16.37.39:032][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.01-16.37.39:032][345]PIE: New page: PIE session: NewWorld2 (2017年11月1日 上午2:37:39)
+[2017.11.01-16.37.39:033][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2
+[2017.11.01-16.37.39:041][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008626s)
+[2017.11.01-16.37.39:042][345]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.37.39:042][345]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.11.01-16.37.39:042][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewWorld2.NewWorld2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 (0.009500s)
+[2017.11.01-16.37.39:062][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.37.39:069][345]LogInit: FAudioDevice initialized.
+[2017.11.01-16.37.39:100][345]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.01-16.37.39:107][345]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 up for play (max tick rate 0) at 2017.11.01-09.37.39
+[2017.11.01-16.37.39:108][345]LogWorld: Bringing up level for play took: 0.007688
+[2017.11.01-16.37.39:111][345]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2 -0.581
+[2017.11.01-16.38.37:305][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2017.11.01-16.38.37:395][562]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.01-16.38.38:129][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Railing_01)
+[2017.11.01-16.38.48:963][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Column_Large_Broken_03)
+[2017.11.01-16.38.59:645][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Man_Statue_01)
+[2017.11.01-16.39.29:750][489]LogSavePackage: Save=14.97ms
+[2017.11.01-16.39.29:750][489]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Man_Statue_01_torchCBF0A45D4B73B9DF58E4D4A1B3EBACA8.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01_torch.uasset'
+[2017.11.01-16.39.29:753][489]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01_torch.uasset
+[2017.11.01-16.39.31:528][529]LogSavePackage: Save=14.97ms
+[2017.11.01-16.39.31:528][529]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Man_Statue_01D6D10BF6424541FB6F8DAFAB1EDC6C77.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01.uasset'
+[2017.11.01-16.39.31:530][529]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01.uasset
+[2017.11.01-16.39.33:071][624]LogSavePackage: Save=15.00ms
+[2017.11.01-16.39.33:071][624]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Column_Large_Broken_03F4ADA68E426B90C9594EECB748FBA455.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_03.uasset'
+[2017.11.01-16.39.33:078][624]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_03.uasset
+[2017.11.01-16.39.36:627][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports)
+[2017.11.01-16.39.58:590][604]LogStaticMesh: Building static mesh SM_Plains_Colunnade_Mid_01...
+[2017.11.01-16.39.58:634][604]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Colunnade_Mid_01.SM_Plains_Colunnade_Mid_01
+[2017.11.01-16.40.01:663][698]LogMeshUtilities: Finished distance field build in 2.9s - 64x64x64 distance field, 3980 triangles, Range [-0.0, 0.8], SM_Plains_Colunnade_Mid_01
+[2017.11.01-16.40.47:627][623]LogSavePackage: Save=16.64ms
+[2017.11.01-16.40.47:627][623]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/SM_Plains_Colunnade_Mid_01ACF86D9E4F06C8F9311A0489D31191BA.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Colunnade_Mid_01.uasset'
+[2017.11.01-16.40.47:628][623]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Colunnade_Mid_01.uasset
+[2017.11.01-16.40.48:742][691]LogActorFactory: Actor Factory created SM_Plains_Colunnade_Mid_01
+[2017.11.01-16.40.51:740][907]LogActorFactory: Actor Factory created SM_Plains_Colunnade_Mid_01
+[2017.11.01-16.40.52:149][936]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.01-16.41.00:570][573]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.01-16.41.38:395][740]Cmd: DELETE
+[2017.11.01-16.41.38:395][740]Cmd: ACTOR DELETE
+[2017.11.01-16.41.38:396][740]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.01-16.41.38:414][740]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.01-16.41.40:520][870]LogStaticMesh: Building static mesh SM_Plains_CastleWall_Support_03...
+[2017.11.01-16.41.40:555][870]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Support_03.SM_Plains_CastleWall_Support_03
+[2017.11.01-16.41.40:720][876]LogActorFactory: Actor Factory created SM_Plains_CastleWall_Support_03
+[2017.11.01-16.41.41:334][894]LogMeshUtilities: Finished distance field build in 0.7s - 22x54x64 distance field, 792 triangles, Range [-0.0, 0.5], SM_Plains_CastleWall_Support_03
+[2017.11.01-16.41.41:664][918]LogActorFactory: Actor Factory created SM_Plains_CastleWall_Support_03
+[2017.11.01-16.41.42:580][991]Cmd: DELETE
+[2017.11.01-16.41.42:580][991]Cmd: ACTOR DELETE
+[2017.11.01-16.41.42:581][991]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.01-16.41.42:596][991]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.01-16.41.58:143][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports)
+[2017.11.01-16.41.58:925][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_2)
+[2017.11.01-16.41.59:627][185]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_5)
+[2017.11.01-16.42.01:260][319]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_3)
+[2017.11.01-16.42.02:099][387]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block9)
+[2017.11.01-16.42.03:512][499]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_8)
+[2017.11.01-16.42.04:816][607]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_01)
+[2017.11.01-16.42.05:529][663]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_6)
+[2017.11.01-16.42.06:280][723]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_4)
+[2017.11.01-16.42.06:867][769]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Man_Statue_7)
+[2017.11.01-16.42.11:733][175]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports)
+[2017.11.01-16.42.38:477][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain)
+[2017.11.01-16.42.44:144][609]MapCheck: New page: Map Check
+[2017.11.01-16.42.44:166][609]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:42:44
+[2017.11.01-16.42.44:205][609]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.42.44:254][609]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.42.44:261][609]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.42.44:770][609]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.42.44:770][609]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.42.47:339][609]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.42.47:340][609]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.42.47:340][609]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.42.47:340][609]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.42.47:340][609]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.42.47:340][609]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.42.47:510][609]LogEditorBuildUtils: Build time 0:03
+[2017.11.01-16.42.58:974][988]Job is a success!
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2017.11.01-16.43.00:106][990]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 64X64)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 64X64)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 128X64)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 1024X32)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X64)
+[2017.11.01-16.43.00:245][990]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X512)
+[2017.11.01-16.43.00:285][990]Lightmass on JOE-PC: 12.1 sec total, 240 ms importing, 209 ms setup, 1.58 sec photons, 10.0 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 1:50 min total, 1:25 min processing.
+[2017.11.01-16.43.00:351][990]LogStaticLightingSystem: Illumination: 16.1 sec (883 ms encoding lightmaps, 123 ms encoding shadowmaps)
+[2017.11.01-16.43.00:351][990]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.43.00:351][990]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.43.05:351][990]DumpUnbuiltLightIteractions
+[2017.11.01-16.43.05:351][990]Lights with unbuilt interactions: 0
+[2017.11.01-16.43.05:351][990]
+[2017.11.01-16.43.05:351][990]Primitives with unbuilt interactions: 0
+[2017.11.01-16.43.05:365][991]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.43.05:365][991]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:43:05
+[2017.11.01-16.43.05:485][991]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.774ms to complete.
+[2017.11.01-16.43.05:488][991]LogEditorViewport: Clicking on Actor (context menu): Spike_C (Spike13)
+[2017.11.01-16.43.05:542][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block03)
+[2017.11.01-16.43.11:716][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_183)
+[2017.11.01-16.43.14:952][461]LogEditorViewport: Clicking on Actor (LMB): ExponentialHeightFog (ExponentialHeightFog2)
+[2017.11.01-16.43.19:932][605]LogEditorViewport: Clicking on Actor (LMB): ExponentialHeightFog (ExponentialHeightFog2)
+[2017.11.01-16.43.28:022][771]MapCheck: New page: Map Check
+[2017.11.01-16.43.28:051][771]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:43:28
+[2017.11.01-16.43.28:059][771]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.43.28:061][771]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.43.28:062][771]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.43.28:062][771]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.43.28:062][771]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.43.32:609][771]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.43.32:609][771]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.43.32:609][771]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.43.32:609][771]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.43.32:609][771]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.43.32:609][771]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.43.32:736][771]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.43.32:747][771]LogSlate: Took 0.002316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.11.01-16.43.43:448][882]Job is a success!
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 512X256)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.11.01-16.43.44:940][883]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 64X64)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 64X64)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 128X64)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 1024X32)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 1024X64)
+[2017.11.01-16.43.45:073][883]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 1024X512)
+[2017.11.01-16.43.45:146][883]Lightmass on JOE-PC: 11.8 sec total, 224 ms importing, 218 ms setup, 1.55 sec photons, 9.80 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 1:47 min total, 1:19 min processing.
+[2017.11.01-16.43.45:321][883]LogStaticLightingSystem: Illumination: 17.0 sec (896 ms encoding lightmaps, 131 ms encoding shadowmaps)
+[2017.11.01-16.43.45:321][883]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.43.45:321][883]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.43.45:618][883]DumpUnbuiltLightIteractions
+[2017.11.01-16.43.45:618][883]Lights with unbuilt interactions: 0
+[2017.11.01-16.43.45:618][883]
+[2017.11.01-16.43.45:618][883]Primitives with unbuilt interactions: 0
+[2017.11.01-16.43.45:630][884]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.43.45:630][884]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:43:45
+[2017.11.01-16.43.45:694][884]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.707ms to complete.
+[2017.11.01-16.44.02:848][210]MapCheck: New page: Map Check
+[2017.11.01-16.44.02:878][210]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:44:02
+[2017.11.01-16.44.02:886][210]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.44.02:889][210]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.44.02:889][210]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.44.02:890][210]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.44.02:890][210]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.44.07:432][210]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.44.07:433][210]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.44.07:433][210]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.44.07:433][210]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.44.07:433][210]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.44.07:433][210]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.44.07:573][210]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.44.18:101][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD01)
+[2017.11.01-16.44.18:216][321]Job is a success!
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2017.11.01-16.44.19:562][322]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2017.11.01-16.44.19:732][322]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 64X64)
+[2017.11.01-16.44.19:732][322]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 32X32)
+[2017.11.01-16.44.19:732][322]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 64X64)
+[2017.11.01-16.44.19:732][322]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 128X64)
+[2017.11.01-16.44.19:732][322]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (G8, 1024X32)
+[2017.11.01-16.44.19:733][322]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 1024X64)
+[2017.11.01-16.44.19:733][322]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 1024X512)
+[2017.11.01-16.44.19:798][322]Lightmass on JOE-PC: 11.6 sec total, 225 ms importing, 207 ms setup, 1.51 sec photons, 9.69 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 1:46 min total, 1:19 min processing.
+[2017.11.01-16.44.19:986][322]LogStaticLightingSystem: Illumination: 16.9 sec (906 ms encoding lightmaps, 130 ms encoding shadowmaps)
+[2017.11.01-16.44.19:986][322]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.44.19:986][322]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.44.20:439][322]DumpUnbuiltLightIteractions
+[2017.11.01-16.44.20:439][322]Lights with unbuilt interactions: 0
+[2017.11.01-16.44.20:439][322]
+[2017.11.01-16.44.20:439][322]Primitives with unbuilt interactions: 0
+[2017.11.01-16.44.20:450][323]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.44.20:450][323]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:44:20
+[2017.11.01-16.44.20:514][323]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.742ms to complete.
+[2017.11.01-16.44.55:307][374]MapCheck: New page: Map Check
+[2017.11.01-16.44.55:324][374]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:44:55
+[2017.11.01-16.44.55:331][374]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.44.55:334][374]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.44.55:334][374]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.44.55:335][374]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.44.55:335][374]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.44.59:873][374]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.44.59:874][374]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.44.59:874][374]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.44.59:874][374]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.44.59:874][374]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.44.59:874][374]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.45.00:000][374]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.45.11:324][684]Job is a success!
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 512X256)
+[2017.11.01-16.45.12:440][685]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.11.01-16.45.12:441][685]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (G8, 64X64)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (G8, 64X64)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (G8, 32X32)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (G8, 128X64)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (G8, 1024X32)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (G8, 1024X64)
+[2017.11.01-16.45.12:582][685]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (G8, 1024X512)
+[2017.11.01-16.45.12:616][685]Lightmass on JOE-PC: 12.0 sec total, 228 ms importing, 205 ms setup, 1.54 sec photons, 10.0 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 1:49 min total, 1:24 min processing.
+[2017.11.01-16.45.12:680][685]LogStaticLightingSystem: Illumination: 17.2 sec (877 ms encoding lightmaps, 127 ms encoding shadowmaps)
+[2017.11.01-16.45.12:680][685]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.45.12:680][685]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.45.12:882][685]DumpUnbuiltLightIteractions
+[2017.11.01-16.45.12:882][685]Lights with unbuilt interactions: 0
+[2017.11.01-16.45.12:882][685]
+[2017.11.01-16.45.12:882][685]Primitives with unbuilt interactions: 0
+[2017.11.01-16.45.12:894][686]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.45.12:894][686]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:45:12
+[2017.11.01-16.45.12:954][686]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.061ms to complete.
+[2017.11.01-16.45.28:315][435]MapCheck: New page: Map Check
+[2017.11.01-16.45.28:334][435]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:45:28
+[2017.11.01-16.45.28:342][435]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.45.28:345][435]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.45.28:345][435]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.45.28:346][435]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.45.28:346][435]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.45.32:885][435]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.45.32:885][435]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.45.32:885][435]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.45.32:885][435]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.45.32:885][435]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.45.32:885][435]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.45.33:013][435]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.45.38:527][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain)
+[2017.11.01-16.45.44:401][801]Job is a success!
+[2017.11.01-16.45.45:521][802]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.01-16.45.45:521][802]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.45.45:521][802]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2017.11.01-16.45.45:522][802]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_37 (G8, 64X64)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_36 (G8, 64X64)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_40 (G8, 32X32)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_38 (G8, 128X64)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_41 (G8, 1024X32)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_39 (G8, 1024X64)
+[2017.11.01-16.45.45:672][802]LogTexture: Display: Building textures: ShadowMapTexture2D_35 (G8, 1024X512)
+[2017.11.01-16.45.45:701][802]Lightmass on JOE-PC: 12.1 sec total, 228 ms importing, 208 ms setup, 1.57 sec photons, 10.1 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 1:50 min total, 1:25 min processing.
+[2017.11.01-16.45.45:752][802]LogStaticLightingSystem: Illumination: 17.3 sec (903 ms encoding lightmaps, 136 ms encoding shadowmaps)
+[2017.11.01-16.45.45:752][802]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.45.45:752][802]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.45.45:893][802]DumpUnbuiltLightIteractions
+[2017.11.01-16.45.45:893][802]Lights with unbuilt interactions: 0
+[2017.11.01-16.45.45:893][802]
+[2017.11.01-16.45.45:893][802]Primitives with unbuilt interactions: 0
+[2017.11.01-16.45.45:904][803]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.45.45:904][803]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:45:45
+[2017.11.01-16.45.45:965][803]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.743ms to complete.
+[2017.11.01-16.45.56:998][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_171)
+[2017.11.01-16.46.06:412][826]MapCheck: New page: Map Check
+[2017.11.01-16.46.06:440][826]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:46:06
+[2017.11.01-16.46.06:448][826]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.46.06:451][826]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.46.06:451][826]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.46.06:452][826]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.46.06:452][826]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.46.10:959][826]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.46.10:959][826]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.46.10:959][826]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.46.10:959][826]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.46.10:959][826]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.46.10:959][826]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.46.11:085][826]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.46.22:066][ 34]Job is a success!
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 512X256)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.11.01-16.46.23:241][ 35]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_43 (G8, 64X64)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_44 (G8, 64X64)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_47 (G8, 32X32)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_45 (G8, 128X64)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_48 (G8, 1024X32)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_46 (G8, 1024X64)
+[2017.11.01-16.46.23:392][ 35]LogTexture: Display: Building textures: ShadowMapTexture2D_42 (G8, 1024X512)
+[2017.11.01-16.46.23:428][ 35]Lightmass on JOE-PC: 11.7 sec total, 218 ms importing, 206 ms setup, 1.56 sec photons, 9.78 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 1:47 min total, 1:22 min processing.
+[2017.11.01-16.46.23:530][ 35]LogStaticLightingSystem: Illumination: 16.9 sec (886 ms encoding lightmaps, 124 ms encoding shadowmaps)
+[2017.11.01-16.46.23:530][ 35]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.46.23:530][ 35]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.46.23:966][ 35]DumpUnbuiltLightIteractions
+[2017.11.01-16.46.23:966][ 35]Lights with unbuilt interactions: 0
+[2017.11.01-16.46.23:966][ 35]
+[2017.11.01-16.46.23:966][ 35]Primitives with unbuilt interactions: 0
+[2017.11.01-16.46.23:978][ 36]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.46.23:978][ 36]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:46:23
+[2017.11.01-16.46.24:038][ 36]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.33ms to complete.
+[2017.11.01-16.46.28:886][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain)
+[2017.11.01-16.46.43:044][606]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.47.15:664][912]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.47.39:337][704]MapCheck: New page: Map Check
+[2017.11.01-16.47.39:369][704]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:47:39
+[2017.11.01-16.47.39:377][704]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.47.39:380][704]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.47.39:380][704]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.47.39:381][704]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.47.39:381][704]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.47.43:920][704]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.47.43:920][704]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.47.43:920][704]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.47.43:920][704]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.47.43:920][704]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.47.43:920][704]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.47.44:055][704]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.47.59:371][951]Job is a success!
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2017.11.01-16.48.00:475][952]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_50 (G8, 64X64)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_51 (G8, 64X64)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_54 (G8, 32X32)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_52 (G8, 128X64)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_55 (G8, 1024X32)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_53 (G8, 1024X64)
+[2017.11.01-16.48.00:607][952]LogTexture: Display: Building textures: ShadowMapTexture2D_49 (G8, 1024X512)
+[2017.11.01-16.48.00:631][952]Lightmass on JOE-PC: 16.0 sec total, 222 ms importing, 204 ms setup, 4.61 sec photons, 10.9 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 2:00 min total, 1:33 min processing.
+[2017.11.01-16.48.00:678][952]LogStaticLightingSystem: Illumination: 21.2 sec (905 ms encoding lightmaps, 120 ms encoding shadowmaps)
+[2017.11.01-16.48.00:678][952]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.48.00:678][952]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.48.00:928][952]DumpUnbuiltLightIteractions
+[2017.11.01-16.48.00:928][952]Lights with unbuilt interactions: 0
+[2017.11.01-16.48.00:928][952]
+[2017.11.01-16.48.00:928][952]Primitives with unbuilt interactions: 0
+[2017.11.01-16.48.00:940][953]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.48.00:940][953]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:48:00
+[2017.11.01-16.48.01:000][953]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.703ms to complete.
+[2017.11.01-16.48.53:746][ 10]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2017.11.01-16.48.53:746][ 10]LogSynthBenchmark: Display: ===============
+[2017.11.01-16.48.53:746][ 10]LogSynthBenchmark: Display: Main Processor:
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:          ... 0.020045 s/Run 'RayIntersect'
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:          ... 0.019431 s/Run 'Fractal'
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display: 
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2017.11.01-16.48.53:785][ 10]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   NumberOfCores (physical): 6
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   NumberOfCores (logical): 12
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   CPU Perf Index 0: 127.8 (weight 1.00)
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   CPU Perf Index 1: 147.2 (weight 1.50)
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:  
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display: Graphics:
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 770'
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   Device Id: 0x1184
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2017.11.01-16.48.53:786][ 10]LogSynthBenchmark: Display:   GPU Memory: 2018/0/8138 MB
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:   GPU first test: 0.01s
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 1.657 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 1.992 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 1.436 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 2.980 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 0.439 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 21.516 s/GigaVert, Confidence=40% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.11.01-16.48.53:885][ 10]LogSynthBenchmark: Display:          ... 3.998 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:   GPU second test: 0.04s
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 3.404 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 5.293 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 2.898 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 13.580 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 0.753 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 1.505 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.11.01-16.48.53:967][ 10]LogSynthBenchmark: Display:          ... 2.652 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU third test: 0.34s
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 4.111 s/GigaPix, Confidence=60% 'ALUHeavyNoise'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 7.231 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 3.753 s/GigaPix, Confidence=89% 'DepTexHeavy'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 24.241 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 0.944 s/GigaPix, Confidence=89% 'Bandwidth'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 1.541 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 2.946 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Final Results:
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 4.111 s/GigaPix, Confidence=60% 'ALUHeavyNoise'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 7.231 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 3.753 s/GigaPix, Confidence=89% 'DepTexHeavy'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 24.241 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 0.944 s/GigaPix, Confidence=89% 'Bandwidth'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 1.541 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... 2.946 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display: 
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 0: 89.3 (weight 1.00)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 1: 97.1 (weight 0.10)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 2: 97.6 (weight 0.10)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 3: 95.2 (weight 3.00)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 4: 88.1 (weight 1.00)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 5: 100.3 (weight 0.00)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPU Perf Index 6: 166.7 (weight 0.00)
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   CPUIndex: 139.4
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:   GPUIndex: 92.8
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display: 
+[2017.11.01-16.48.54:357][ 10]LogSynthBenchmark: Display:          ... Total Time: 0.611194 sec
+[2017.11.01-16.48.54:388][ 10]LogRenderer: Reallocating scene render targets to support 1200x924 Format 9 NumSamples 1 (Frame:19590).
+[2017.11.01-16.48.55:158][ 16]LogContentStreaming: Texture pool size now 800 MB
+[2017.11.01-16.49.52:101][824]Cmd: TRANSACTION UNDO
+[2017.11.01-16.49.52:101][824]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.01-16.49.53:080][836]Cmd: TRANSACTION UNDO
+[2017.11.01-16.49.53:080][836]LogEditorTransaction: Undo Delete selection
+[2017.11.01-16.50.06:121][214]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2017.11.01-16.50.06:136][214]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.01-16.50.11:659][427]MapCheck: New page: Map Check
+[2017.11.01-16.50.11:683][427]LightingResults: New page: Lighting Build - 2017年11月1日 上午2:50:11
+[2017.11.01-16.50.11:692][427]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.01-16.50.11:695][427]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.01-16.50.11:695][427]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.01-16.50.11:695][427]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.01-16.50.11:695][427]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23084
+[2017.11.01-16.50.16:214][427]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.11.01-16.50.16:214][427]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.01-16.50.16:214][427]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.01-16.50.16:214][427]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.01-16.50.16:214][427]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.01-16.50.16:215][427]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.01-16.50.16:349][427]LogEditorBuildUtils: Build time 0:04
+[2017.11.01-16.50.31:496][720]Job is a success!
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 512X256)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.11.01-16.50.32:651][721]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_57 (G8, 64X64)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_61 (G8, 32X32)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_58 (G8, 64X64)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_59 (G8, 128X64)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_62 (G8, 1024X32)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_60 (G8, 1024X64)
+[2017.11.01-16.50.32:798][721]LogTexture: Display: Building textures: ShadowMapTexture2D_56 (G8, 1024X512)
+[2017.11.01-16.50.32:843][721]Lightmass on JOE-PC: 15.9 sec total, 236 ms importing, 219 ms setup, 4.39 sec photons, 11.0 sec processing, 0 ms extra exporting [230/230 mappings]. Threads: 2:01 min total, 1:33 min processing.
+[2017.11.01-16.50.32:930][721]LogStaticLightingSystem: Illumination: 21.1 sec (889 ms encoding lightmaps, 124 ms encoding shadowmaps)
+[2017.11.01-16.50.32:931][721]LogStaticLightingSystem: Lightmap texture memory:  3.8 MB (3.8 MB streaming, 0.0 MB non-streaming), 14 textures
+[2017.11.01-16.50.32:931][721]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 7 textures
+[2017.11.01-16.50.33:222][721]DumpUnbuiltLightIteractions
+[2017.11.01-16.50.33:222][721]Lights with unbuilt interactions: 0
+[2017.11.01-16.50.33:222][721]
+[2017.11.01-16.50.33:222][721]Primitives with unbuilt interactions: 0
+[2017.11.01-16.50.33:232][722]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.01-16.50.33:232][722]MapCheck: New page: NewWorld2 - 2017年11月1日 上午2:50:33
+[2017.11.01-16.50.33:296][722]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.913ms to complete.
+[2017.11.01-16.50.40:035][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
+[2017.11.01-16.50.45:859][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_2)
+[2017.11.01-16.50.48:741][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.50.54:417][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_2)
+[2017.11.01-16.51.00:662][825]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.51.03:869][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
+[2017.11.01-16.51.06:426][127]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.51.15:664][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
+[2017.11.01-16.51.16:469][595]Cmd: EDIT COPY
+[2017.11.01-16.51.16:685][610]Cmd: EDIT PASTE
+[2017.11.01-16.51.28:581][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.51.41:543][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_3)
+[2017.11.01-16.51.42:507][829]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Env_Plains_Mountain_2)
+[2017.11.01-16.51.43:691][906]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
+[2017.11.01-16.51.56:215][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_3)
+[2017.11.01-16.52.01:886][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_01)
+[2017.11.01-16.52.04:810][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_2)
+[2017.11.01-16.52.09:501][222]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.52.27:380][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_3)
+[2017.11.01-16.52.30:495][ 25]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.01-16.52.38:198][369]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.01-16.52.38:225][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.01-16.52.38:225][369]PIE: New page: PIE session: NewWorld2 (2017年11月1日 上午2:52:38)
+[2017.11.01-16.52.38:225][369]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2
+[2017.11.01-16.52.38:234][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008942s)
+[2017.11.01-16.52.38:234][369]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.52.38:235][369]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.11.01-16.52.38:235][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewWorld2.NewWorld2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 (0.009930s)
+[2017.11.01-16.52.38:254][369]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.52.38:262][369]LogInit: FAudioDevice initialized.
+[2017.11.01-16.52.38:291][369]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.01-16.52.38:298][369]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 up for play (max tick rate 0) at 2017.11.01-09.52.38
+[2017.11.01-16.52.38:300][369]LogWorld: Bringing up level for play took: 0.007698
+[2017.11.01-16.52.38:303][369]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2 0.61
+[2017.11.01-16.52.45:214][868]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.01-16.52.49:617][ 52]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.01-16.52.51:215][113]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.01-16.52.51:557][128]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.01-16.52.54:408][213]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.01-16.52.55:751][276]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.01-16.52.56:709][347]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.01-16.52.56:730][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.01-16.52.56:730][347]PIE: New page: PIE session: NewWorld2 (2017年11月1日 上午2:52:56)
+[2017.11.01-16.52.56:730][347]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2
+[2017.11.01-16.52.56:739][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009131s)
+[2017.11.01-16.52.56:740][347]LogAIModule: Creating AISystem for world NewWorld2
+[2017.11.01-16.52.56:740][347]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.11.01-16.52.56:740][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/NewWorld2.NewWorld2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 (0.010103s)
+[2017.11.01-16.52.56:759][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-16.52.56:766][347]LogInit: FAudioDevice initialized.
+[2017.11.01-16.52.56:794][347]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.01-16.52.56:801][347]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2.NewWorld2 up for play (max tick rate 0) at 2017.11.01-09.52.56
+[2017.11.01-16.52.56:802][347]LogWorld: Bringing up level for play took: 0.007720
+[2017.11.01-16.52.56:805][347]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_NewWorld2 -0.887
+[2017.11.01-16.53.28:385][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Castle_Fountain_02)
+[2017.11.01-16.53.49:425][816]LogSavePackage: Save=225.98ms
+[2017.11.01-16.53.49:425][816]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/NewWorld2B2415498436FCF82E18BF5BE54B0739E.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/ThirdPersonBP/Maps/NewWorld2.umap'
+[2017.11.01-16.53.49:426][816]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/ThirdPersonBP/Maps/NewWorld2.umap
+[2017.11.01-16.53.49:461][816]LogFileHelpers: Saving map 'NewWorld2' took 0.346
+[2017.11.01-16.53.49:729][816]LogSavePackage: Save=250.09ms
+[2017.11.01-16.53.49:730][816]LogSavePackage: Moving '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/NewWorld2_BuiltDataCD0080AC4285BEBF2E6323B7D447BB4D.tmp' to '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/ThirdPersonBP/Maps/NewWorld2_BuiltData.uasset'
+[2017.11.01-16.53.49:732][816]LogSavePackage: Display: Finished SavePackage ../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/ThirdPersonBP/Maps/NewWorld2_BuiltData.uasset
+[2017.11.01-16.53.49:835][816]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2017.11.01-16.53.50:032][817]Cmd: QUIT_EDITOR
+[2017.11.01-16.53.50:789][817]LogExit: Preparing to exit.
+[2017.11.01-16.53.51:890][817]LogDirectoryWatcher: A directory notification for 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/' was aborted.
+[2017.11.01-16.53.51:921][817]LogExit: Editor shut down
+[2017.11.01-16.53.51:928][817]LogExit: Transaction tracking system shut down
+[2017.11.01-16.53.52:113][817]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.01-16.53.52:113][817]LogDirectoryWatcher: A directory notification for '../../../../../../JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/' was aborted.
+[2017.11.01-16.53.52:113][817]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.01-16.53.52:113][817]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.01-16.53.52:113][817]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.01-16.53.52:194][817]LogExit: Object subsystem successfully closed.
+[2017.11.01-16.53.52:214][817]LogD3D11RHI: Shutdown
+[2017.11.01-16.53.52:214][817]LogD3D11RHI: CleanupD3DDevice
+[2017.11.01-16.53.52:218][817]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.01-16.53.52:225][817]LogModuleManager: Shutting down and abandoning module SynthBenchmark (542)
+[2017.11.01-16.53.52:225][817]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (540)
+[2017.11.01-16.53.52:225][817]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (538)
+[2017.11.01-16.53.52:225][817]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (536)
+[2017.11.01-16.53.52:225][817]LogModuleManager: Shutting down and abandoning module SceneOutliner (534)
+[2017.11.01-16.53.52:225][817]LogModuleManager: Shutting down and abandoning module AddContentDialog (532)
+[2017.11.01-16.53.52:225][817]LogDirectoryWatcher: A directory notification for 'E:/JOE-software/UE4/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module WidgetCarousel (531)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module EditorWidgets (528)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module CollectionManager (526)
+[2017.11.01-16.53.52:226][817]LogDirectoryWatcher: A directory notification for 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/Collections/' was aborted.
+[2017.11.01-16.53.52:226][817]LogDirectoryWatcher: A directory notification for 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Content/Developers/JOE/Collections/' was aborted.
+[2017.11.01-16.53.52:226][817]LogDirectoryWatcher: A directory notification for 'E:/JOE-school/第八学期/GAM606/Cursed-Gems/Cursed-Gems/Saved/Collections/' was aborted.
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module FoliageEdit (522)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module LandscapeEditor (520)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module MeshPaintMode (518)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (516)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module ActorPickerMode (514)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module GeometryMode (512)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module TextureAlignMode (510)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module BspMode (508)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (506)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module HardwareSurvey (504)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (502)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module AutomationWorker (500)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (498)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (496)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module PlacementMode (495)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (492)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (490)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (488)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (486)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (484)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module Media (483)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (480)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module CharacterAI (478)
+[2017.11.01-16.53.52:226][817]LogModuleManager: Shutting down and abandoning module AudioCapture (476)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module SequenceRecorder (475)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module SmartSnapping (472)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module SessionServices (470)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module ViewportSnapping (468)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module ViewportInteraction (466)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module ClothPainter (464)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module LogVisualizer (462)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module IntroTutorials (460)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (459)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (456)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (454)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (452)
+[2017.11.01-16.53.52:227][817]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (451)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (448)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (446)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (444)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module InputBindingEditor (442)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module MergeActors (440)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module SizeMap (438)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module TreeMap (436)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module ReferenceViewer (434)
+[2017.11.01-16.53.53:097][817]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (432)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module LocalizationService (431)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module HardwareTargeting (428)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (426)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module UndoHistory (424)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module XmlParser (422)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module Blutility (420)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (418)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (417)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (414)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module SettingsEditor (412)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module ProjectLauncher (410)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module SessionFrontend (408)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module ProfilerClient (406)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module DeviceManager (404)
+[2017.11.01-16.53.53:098][817]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (403)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module AutomationController (400)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module AutomationWindow (398)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module Layers (396)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (394)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module DetailCustomizations (392)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module PackagesDialog (390)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module Persona (388)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (387)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module AnimGraph (385)
+[2017.11.01-16.53.53:150][817]LogModuleManager: Shutting down and abandoning module Kismet (382)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module ClassViewer (380)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module Toolbox (378)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module ModuleUI (376)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module MovieSceneTools (374)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module OutputLog (372)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module GammaUI (370)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module Documentation (368)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (366)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module MovieScene (364)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module Niagara (362)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module NiagaraEditor (361)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module LauncherPlatform (356)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module AnalyticsET (354)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module PortalServices (352)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module PortalRpc (350)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module MessagingRpc (348)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module AIModule (346)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module GameplayDebugger (345)
+[2017.11.01-16.53.53:151][817]LogModuleManager: Shutting down and abandoning module AITestSuite (343)
+[2017.11.01-16.53.53:152][817]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module SubstanceSource (336)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module SubstanceEditor (334)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.11.01-16.53.53:172][817]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.11.01-16.53.53:173][817]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.11.01-16.53.53:173][817]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.11.01-16.53.53:173][817]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2017.11.01-16.53.53:174][817]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2017.11.01-16.53.53:274][817]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module SubstanceCore (244)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.01-16.53.53:374][817]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.01-16.53.53:375][817]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.01-16.53.53:375][817]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.01-16.53.53:375][817]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.01-16.53.53:375][817]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.01-16.53.53:375][817]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.01-16.53.53:376][817]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.01-16.53.53:378][817]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.01-16.53.53:379][817]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.01-16.53.53:386][817]LogDerivedDataCache: Shutdown
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.01-16.53.53:386][817]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.01-16.53.53:387][817]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.01-16.53.53:387][817]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.01-16.53.53:387][817]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.01-16.53.53:387][817]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF44C4346-40D8-981C-7791-AFA6B1FC9F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=6bde4f5b47a6f36391b026a59d1aa916%7C158a3d21c9d844f4b0667e10c2dbcdd5%7Cc6b37b04-c469-4398-9679-5ef98439a072&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.01-16.53.53:396][817]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.01-16.53.53:397][817]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.01-16.53.53:399][817]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.01-16.53.53:403][817]LogExit: Exiting.
+[2017.11.01-16.53.53:420][817]Log file closed, 11/01/17 09:53:53
